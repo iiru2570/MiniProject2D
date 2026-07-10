@@ -73,6 +73,9 @@ public class PlayerController : MonoBehaviour
             yield return null;
         }
         //yield return moveWait;
+
+        //프레임 간격때문에 조금씩 캐릭터가 벗어날 수도 있어서 마지막에 다시 보완.
+        transform.position = targetPos;
         isMoving = true;
     }
 
