@@ -1,4 +1,5 @@
 
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
@@ -8,35 +9,45 @@ public class PlayerController : MonoBehaviour
     public Tilemap tilemap;
     private Rigidbody2D rb;
 
+    private bool isMoving;
+    WaitForSeconds moveWait;
+    float moveSpeed;
+    float moveTime;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        moveWait = new WaitForSeconds(0.5f);
+        isMoving = true;
+        moveSpeed = 2f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Keyboard.current.upArrowKey.wasPressedThisFrame)
+        if (isMoving)
         {
-            Move(new Vector3Int(0, 1, 0));
+            if (Keyboard.current.upArrowKey.wasPressedThisFrame)
+            {
+                StartCoroutine(MovingCoolTime(new Vector3Int(0, 1, 0)));
+            }
+            else if (Keyboard.current.downArrowKey.wasPressedThisFrame)
+            {
+                StartCoroutine(MovingCoolTime(new Vector3Int(0, -1, 0)));
+            }
+            else if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
+            {
+                StartCoroutine(MovingCoolTime(new Vector3Int(-1, 0, 0)));
+            }
+            else if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
+            {
+                StartCoroutine(MovingCoolTime(new Vector3Int(1, 0, 0)));
+            }
         }
-        if (Keyboard.current.downArrowKey.wasPressedThisFrame)
-        {
-            Move(new Vector3Int(0, -1, 0));
-        }
-        if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
-        {
-            Move(new Vector3Int(-1, 0, 0));
-        }
-        if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
-        {
-            Move(new Vector3Int(1, 0, 0));
-        }
-        
     }
 
-    private void Move(Vector3Int dir)
+    private Vector3 Move(Vector3Int dir)
     {
         Vector3Int PlayerPos = tilemap.WorldToCell(transform.position);
         //Debug.Log(cellPos);
@@ -46,6 +57,23 @@ public class PlayerController : MonoBehaviour
         worldPos.y += tilemap.cellSize.y / 2f;
         worldPos.z = transform.position.z;
 
-        transform.position = worldPos;
+        //transform.position = Vector3.Lerp(PlayerPos, worldPos, 1f);
+        return worldPos;
     }
+    IEnumerator MovingCoolTime(Vector3Int dir)
+    {
+        isMoving = false;
+        moveTime = 0f;
+        Vector3 startPos = transform.position;
+        Vector3 targetPos = Move(dir);
+        while (moveTime <= 1f)
+        {
+            moveTime += Time.deltaTime * moveSpeed;
+            transform.position = Vector3.Lerp(startPos, targetPos, moveTime);
+            yield return null;
+        }
+        //yield return moveWait;
+        isMoving = true;
+    }
+
 }
