@@ -5,6 +5,7 @@ public class PlayerIdleState : IPlayerState
 {
 
     public PlayerController player;
+    private bool pressShift;
 
     public PlayerIdleState(PlayerController player)
     {
@@ -18,31 +19,45 @@ public class PlayerIdleState : IPlayerState
 
     public void Update()
     {
-        if (Keyboard.current.upArrowKey.wasPressedThisFrame)
+        pressShift = Keyboard.current.leftShiftKey.isPressed;
+
+        if (Keyboard.current.upArrowKey.isPressed)
         {
             player.facingDir = new Vector3Int(0, 1, 0);
             player.animeController.SetUp();
-            player.ChangeState(player.runState);
+            if (!pressShift)
+            {
+                player.ChangeState(player.runState);
+            }
         }
-        else if (Keyboard.current.downArrowKey.wasPressedThisFrame)
+        else if (Keyboard.current.downArrowKey.isPressed)
         {
             player.facingDir = new Vector3Int(0, -1, 0);
             player.animeController.SetDown();
-            player.ChangeState(player.runState);
+            if (!pressShift)
+            {
+                player.ChangeState(player.runState);
+            }
         }
-        else if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
+        else if (Keyboard.current.leftArrowKey.isPressed)
         {
             player.facingDir = new Vector3Int(-1, 0, 0);
             player.animeController.SetLeft();
-            player.ChangeState(player.runState);
+            if (!pressShift)
+            {
+                player.ChangeState(player.runState);
+            }
         }
-        else if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
+        else if (Keyboard.current.rightArrowKey.isPressed)
         {
             player.facingDir = new Vector3Int(1, 0, 0);
             player.animeController.SetRight();
-            player.ChangeState(player.runState);
+            if (!pressShift)
+            {
+                player.ChangeState(player.runState);
+            }
         }
-        else if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        else if (Keyboard.current.spaceKey.wasPressedThisFrame && player.canAttack)
         {
             player.ChangeState(player.attackState);
         }

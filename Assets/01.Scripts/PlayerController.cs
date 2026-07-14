@@ -28,6 +28,9 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     public float moveTime;
 
+    public bool canAttack;
+    public float attackCooltime;
+
     private IPlayerState currentState;
     
     public PlayerIdleState idleState;
@@ -43,6 +46,9 @@ public class PlayerController : MonoBehaviour
         idleState = new PlayerIdleState(this);
         runState = new PlayerRunState(this);
         attackState = new PlayerAttackState(this);
+
+        canAttack = true;
+        attackCooltime = 0.7f;
 
         //초기상태 Idle
         ChangeState(idleState);
@@ -90,17 +96,21 @@ public class PlayerController : MonoBehaviour
     //    isMoving = true;
     //}
 
-    //IEnumerator AttackAnime()
-    //{
-    //    animeController.SetAttacktrue();
-    //    yield return null;
-    //    animeController.SetAttackfalse();
-    //    Attack(facingDir);
-
-    //}
+    public IEnumerator AttackAnime()
+    {
+        animeController.SetAttacktrue();
+        yield return new WaitForSeconds(0.25f);
+        animeController.SetAttackfalse();
+    }
+    private IEnumerator AttackCool()
+    {
+        yield return new WaitForSeconds(attackCooltime);
+        canAttack = true;
+    }
 
     public void Attack(Vector3Int dir)
     {
+        canAttack = false;
         Collider2D hit = Physics2D.OverlapPoint(Move(facingDir, 0f));
 
         if (hit != null)
@@ -111,10 +121,12 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("적이 없음");
         }
+        StartCoroutine(AttackCool());
         //animeController.SetAttackfalse();
         //Debug.Log($"{PlayerPos} 칸에 있음.");
         //Debug.Log($"{worldPos} 칸에 공격!");
 
     }
+
 
 }

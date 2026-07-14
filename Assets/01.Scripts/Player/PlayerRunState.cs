@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerRunState : IPlayerState
 {
@@ -23,6 +24,16 @@ public class PlayerRunState : IPlayerState
 
     public void Update()
     {
+        if (Keyboard.current.spaceKey.wasPressedThisFrame && player.canAttack)
+        {
+            //player.transform.position = movePos;
+            //player.ChangeState(player.attackState);
+            player.StartCoroutine(player.AttackAnime());
+            player.Attack(player.facingDir);
+            return;
+        }
+
+
         moveTime += Time.deltaTime * player.moveSpeed;
         player.transform.position = Vector3.Lerp(playerPos, movePos, moveTime);
 
