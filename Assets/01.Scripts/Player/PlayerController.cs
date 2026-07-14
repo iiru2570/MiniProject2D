@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     private IPlayerState currentState;
     
     public PlayerIdleState idleState;
-    public PlayerRunState runState;
+    public PlayerMoveState moveState;
     public PlayerAttackState attackState;
 
     void Start()
@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         facingDir = new Vector3Int(0, -1, 0);
         moveSpeed = 2f;
         idleState = new PlayerIdleState(this);
-        runState = new PlayerRunState(this);
+        moveState = new PlayerMoveState(this);
         attackState = new PlayerAttackState(this);
 
         canAttack = true;
@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
         currentState?.Enter();
     }
 
-    public Vector3 Move(Vector3Int dir, float yf)
+    public Vector3 GetWorldPos(Vector3Int dir, float yf)
     {
         Vector3Int PlayerPos = tilemap.WorldToCell(transform.position);
         //Debug.Log(cellPos);
@@ -111,7 +111,7 @@ public class PlayerController : MonoBehaviour
     public void Attack(Vector3Int dir)
     {
         canAttack = false;
-        Collider2D hit = Physics2D.OverlapPoint(Move(facingDir, 0f));
+        Collider2D hit = Physics2D.OverlapPoint(GetWorldPos(facingDir, 0f));
 
         if (hit != null)
         {
@@ -125,7 +125,6 @@ public class PlayerController : MonoBehaviour
         //animeController.SetAttackfalse();
         //Debug.Log($"{PlayerPos} Ä­¿¡ ÀÖÀ½.");
         //Debug.Log($"{worldPos} Ä­¿¡ °ø°Ý!");
-
     }
 
 

@@ -39,13 +39,13 @@ public class AnimeController : MonoBehaviour
         animator.SetBool("isLeft", true);
     }
 
-    public void SetRuntrue()
+    public void SetMovetrue()
     {
-        animator.SetBool("isRun", true);
+        animator.SetBool("isMove", true);
     }
-    public void SetRunfalse()
+    public void SetMovefalse()
     {
-        animator.SetBool("isRun", false);
+        animator.SetBool("isMove", false);
     }
     public void SetAttacktrue()
     {

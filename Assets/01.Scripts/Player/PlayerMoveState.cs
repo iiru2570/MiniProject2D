@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerRunState : IPlayerState
+public class PlayerMoveState : IPlayerState
 {
     private PlayerController player;
     private Vector3 playerPos;
@@ -9,17 +9,17 @@ public class PlayerRunState : IPlayerState
     private float moveTime;
 
 
-    public PlayerRunState(PlayerController player)
+    public PlayerMoveState(PlayerController player)
     {
         this.player = player;
     }
 
     public void Enter()
     {
-        player.animeController.SetRuntrue();
+        player.animeController.SetMovetrue();
         moveTime = 0f;
         playerPos = player.transform.position;
-        movePos = player.Move(player.facingDir, 0.3f);
+        movePos = player.GetWorldPos(player.facingDir, 0.3f);
     }
 
     public void Update()
@@ -32,7 +32,6 @@ public class PlayerRunState : IPlayerState
             player.Attack(player.facingDir);
             return;
         }
-
 
         moveTime += Time.deltaTime * player.moveSpeed;
         player.transform.position = Vector3.Lerp(playerPos, movePos, moveTime);
@@ -47,7 +46,7 @@ public class PlayerRunState : IPlayerState
     }
     public void Exit()
     {
-        player.animeController.SetRunfalse();
+        player.animeController.SetMovefalse();
     }
 
     

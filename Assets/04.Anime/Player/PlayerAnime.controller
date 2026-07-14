@@ -12,7 +12,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: isRun
+    m_ConditionEvent: isMove
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isAttack
@@ -43,7 +43,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isRun
+    m_ConditionEvent: isMove
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isAttack
@@ -128,7 +128,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isRun
+    m_ConditionEvent: isMove
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isAttack
@@ -154,7 +154,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Run_Left
+  m_Name: Move_Left
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -237,7 +237,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isUp
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: isRun
+    m_ConditionEvent: isMove
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isAttack
@@ -268,7 +268,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isRun
+    m_ConditionEvent: isMove
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isAttack
@@ -320,7 +320,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: isRun
+  - m_Name: isMove
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -459,7 +459,7 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 430, y: 150, z: 0}
+  m_AnyStatePosition: {x: 490, y: 130, z: 0}
   m_EntryPosition: {x: -10, y: 140, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -504,7 +504,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: isRun
+    m_ConditionEvent: isMove
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isAttack
@@ -530,7 +530,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Run_down
+  m_Name: Move_down
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -582,7 +582,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Run_Right
+  m_Name: Move_Right
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -613,7 +613,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isDown
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: isRun
+    m_ConditionEvent: isMove
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isAttack
@@ -719,7 +719,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Run_Up
+  m_Name: Move_Up
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -750,7 +750,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: isRun
+    m_ConditionEvent: isMove
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: isAttack

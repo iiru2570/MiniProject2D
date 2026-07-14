@@ -10,12 +10,12 @@ public class PlayerAttackState : IPlayerState
     public PlayerAttackState(PlayerController player)
     {
         this.player = player;
-        attackDuration = 0.2f;
     }
 
     public void Enter()
     {
         attackTime = 0f;
+        attackDuration = 0.2f;
         player.animeController.SetAttacktrue();
         player.Attack(player.facingDir);
     }

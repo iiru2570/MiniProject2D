@@ -23,38 +23,51 @@ public class PlayerIdleState : IPlayerState
 
         if (Keyboard.current.upArrowKey.isPressed)
         {
-            player.facingDir = new Vector3Int(0, 1, 0);
-            player.animeController.SetUp();
+            if(player.facingDir != new Vector3Int(0, 1, 0))
+            {
+                player.facingDir = new Vector3Int(0, 1, 0);
+                player.animeController.SetUp();
+            }
             if (!pressShift)
             {
-                player.ChangeState(player.runState);
+                player.ChangeState(player.moveState);
             }
         }
         else if (Keyboard.current.downArrowKey.isPressed)
         {
-            player.facingDir = new Vector3Int(0, -1, 0);
-            player.animeController.SetDown();
+           
+            if (player.facingDir != new Vector3Int(0, -1, 0))
+            {
+                player.facingDir = new Vector3Int(0, -1, 0);
+                player.animeController.SetDown();
+            }
             if (!pressShift)
             {
-                player.ChangeState(player.runState);
+                player.ChangeState(player.moveState);
             }
         }
         else if (Keyboard.current.leftArrowKey.isPressed)
         {
-            player.facingDir = new Vector3Int(-1, 0, 0);
-            player.animeController.SetLeft();
+            if(player.facingDir != new Vector3Int(-1, 0, 0))
+            {
+                player.facingDir = new Vector3Int(-1, 0, 0);
+                player.animeController.SetLeft();
+            }
             if (!pressShift)
             {
-                player.ChangeState(player.runState);
+                player.ChangeState(player.moveState);
             }
         }
         else if (Keyboard.current.rightArrowKey.isPressed)
         {
-            player.facingDir = new Vector3Int(1, 0, 0);
-            player.animeController.SetRight();
+            if(player.facingDir != new Vector3Int(1, 0, 0))
+            {
+                player.facingDir = new Vector3Int(1, 0, 0);
+                player.animeController.SetRight();
+            }
             if (!pressShift)
             {
-                player.ChangeState(player.runState);
+                player.ChangeState(player.moveState);
             }
         }
         else if (Keyboard.current.spaceKey.wasPressedThisFrame && player.canAttack)
