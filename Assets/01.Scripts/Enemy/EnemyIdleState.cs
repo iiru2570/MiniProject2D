@@ -12,16 +12,18 @@ public class EnemyIdleState : IEnemyState
     }
     public void Enter()
     {
-        
+        enemy.animeController.SetIdletrue();
     }
     public void Update()
     {
-        enemy.ChangeState(enemy.traceState);
-
+        if (enemy.IsPlayerVision())
+        {
+            enemy.ChangeState(enemy.traceState);
+        }
     }
     public void Exit()
     {
-        
+        enemy.animeController.SetIdlefalse();
     }
 
     

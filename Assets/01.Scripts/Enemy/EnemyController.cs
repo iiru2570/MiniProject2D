@@ -14,8 +14,11 @@ public class EnemyController : MonoBehaviour
 {
     public Tilemap tilemap;
     private Rigidbody2D rb;
+    private SpriteRenderer sr;
 
-    //public AnimeController animeController;
+    public GameObject player;
+    private PlayerController playerController;
+    public AnimeController animeController;
     public Vector3Int facingDir;
     public Transform playertf;
     public float moveSpeed;
@@ -32,15 +35,19 @@ public class EnemyController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        animeController = GetComponent<AnimeController>();
+        sr = GetComponent<SpriteRenderer>();
+        player = GameObject.Find("Player");
+        playerController = player.GetComponent<PlayerController>();
         idleState = new EnemyIdleState(this);
         attackState = new EnemyAttackState(this);
         traceState = new EnemyTraceState(this);
 
         attackCooltime = 3f;
         canAttack = true;
-        //animeController = GetComponent<AnimeController>();
+        
         facingDir = new Vector3Int(0, -1, 0);
-        moveSpeed = 3.0f;
+        moveSpeed = 2.0f;
 
 
         //초기상태
@@ -60,7 +67,6 @@ public class EnemyController : MonoBehaviour
         currentState?.Enter();
     }
 
-
     //방향 계산
     public Vector3Int GetDirection()
     {
@@ -75,11 +81,13 @@ public class EnemyController : MonoBehaviour
             if (x > 0)
             {
                 facingDir = new Vector3Int(-1, 0, 0);
+                sr.flipX = true;
                 return facingDir;
             }
             else if(x < 0)
             {
                 facingDir= new Vector3Int(1, 0, 0);
+                sr.flipX = false;
                 return facingDir;
             }
             else
@@ -106,7 +114,29 @@ public class EnemyController : MonoBehaviour
             }
         }
     }
-    //거리 계산
+    //플레이어와 몬스터의 거리가 플레이어 시야 내에 있을 경우.
+    //visionRange는 일단 보류. 이거 몬스터가 이거 하나 때문에
+    //PlayerController 전부를 가지고 있을 필요 없음. 수정 필요.
+    public bool IsPlayerVision()
+    {
+        Vector3Int EnemyPos = tilemap.WorldToCell(transform.position);
+        Vector3Int PlayerPos = tilemap.WorldToCell(playertf.position);
+
+        int x = Mathf.Abs(EnemyPos.x - PlayerPos.x);
+        int y = Mathf.Abs(EnemyPos.y - PlayerPos.y);
+
+        if (Mathf.Max(x, y) <= playerController.visionRange)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    }
+
+    //거리 계산 - 플레이어랑 한칸 이내인지 확인
     public bool CalDistance()
     {
         Vector3Int EnemyPos = tilemap.WorldToCell(transform.position);
@@ -151,7 +181,7 @@ public class EnemyController : MonoBehaviour
 
     public void Attack(Vector3Int dir)
     {
-        canAttack = false;
+        //canAttack = false;
         facingDir = GetDirection();
         Collider2D hit = Physics2D.OverlapPoint(GetWorldPos(facingDir, 0f));
 
@@ -163,10 +193,15 @@ public class EnemyController : MonoBehaviour
         {
             Debug.Log("적이 없음");
         }
-        StartCoroutine(AttackCool());
+        //StartCoroutine(AttackCool());
         //animeController.SetAttackfalse();
         //Debug.Log($"{PlayerPos} 칸에 있음.");
         //Debug.Log($"{worldPos} 칸에 공격!");
     }
-
+    public IEnumerator MoveAnime()
+    {
+        animeController.SetMovetrue();
+        yield return new WaitForSeconds(0.35f);
+        animeController.SetMovefalse();
+    }
 }

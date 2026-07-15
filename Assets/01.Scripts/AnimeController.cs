@@ -55,4 +55,12 @@ public class AnimeController : MonoBehaviour
     {
         animator.SetBool("isAttack", false);
     }
+    public void SetIdletrue()
+    {
+        animator.SetBool("isIdle", true);
+    }
+    public void SetIdlefalse()
+    {
+        animator.SetBool("isIdle", false);
+    }
 }

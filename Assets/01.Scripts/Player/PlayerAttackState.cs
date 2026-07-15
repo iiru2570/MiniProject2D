@@ -15,7 +15,7 @@ public class PlayerAttackState : IPlayerState
     public void Enter()
     {
         attackTime = 0f;
-        attackDuration = 0.2f;
+        attackDuration = 0.25f;
         player.animeController.SetAttacktrue();
         player.Attack(player.facingDir);
     }
@@ -30,8 +30,6 @@ public class PlayerAttackState : IPlayerState
 
     public void Exit()
     {
-        player.animeController.SetAttackfalse();
+       player.animeController.SetAttackfalse();
     }
-
- 
 }

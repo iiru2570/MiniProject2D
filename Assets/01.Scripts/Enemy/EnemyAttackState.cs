@@ -16,6 +16,7 @@ public class EnemyAttackState : IEnemyState
 
     public void Enter()
     {
+        enemy.animeController.SetAttacktrue();
         attackTime = 0f;
         attackDuration = 1f;
         enemy.Attack(enemy.facingDir);
@@ -38,7 +39,7 @@ public class EnemyAttackState : IEnemyState
     }
     public void Exit()
     {
-        
+        enemy.animeController.SetAttackfalse();
     }
 
     

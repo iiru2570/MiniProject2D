@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
 
     public AnimeController animeController;
 
+    public int visionRange;
+
     //바라보는 방향
     public Vector3Int facingDir;
 
@@ -43,6 +45,7 @@ public class PlayerController : MonoBehaviour
         animeController = GetComponent<AnimeController>();
         facingDir = new Vector3Int(0, -1, 0);
         moveSpeed = 2f;
+        visionRange = 3;
         idleState = new PlayerIdleState(this);
         moveState = new PlayerMoveState(this);
         attackState = new PlayerAttackState(this);

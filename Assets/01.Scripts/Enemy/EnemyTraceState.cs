@@ -17,6 +17,7 @@ public class EnemyTraceState : IEnemyState
     public void Enter()
     {
         moveTime = 0f;
+        enemy.animeController.SetMovetrue();
         enemy.StartCoroutine(Trace());
     }
     public void Update()
@@ -25,7 +26,7 @@ public class EnemyTraceState : IEnemyState
     }
     public void Exit()
     {
-        
+        enemy.animeController.SetMovefalse();
     }
     private IEnumerator Trace()
     {
@@ -36,6 +37,11 @@ public class EnemyTraceState : IEnemyState
                 //공격전 대기시간
                 //yield return new WaitForSeconds(1f);
                 enemy.ChangeState(enemy.attackState);
+                break;
+            }
+            if (!enemy.IsPlayerVision())
+            {
+                enemy.ChangeState(enemy.idleState);
                 break;
             }
 
