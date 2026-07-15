@@ -5,9 +5,9 @@ public class EnemyTraceState : IEnemyState
 {
     private EnemyController enemy;
 
-    Vector3Int dir;
-    Vector3 enemyPos;
-    Vector3 movePos;
+    private Vector3Int dir;
+    private Vector3 enemyPos;
+    private Vector3 movePos;
     private float moveTime;
 
     public EnemyTraceState(EnemyController enemy)
@@ -44,10 +44,19 @@ public class EnemyTraceState : IEnemyState
                 enemy.ChangeState(enemy.idleState);
                 break;
             }
+           
 
             dir = enemy.GetDirection();
             enemyPos = enemy.transform.position;
             movePos = enemy.GetWorldPos(dir, 0.3f);
+
+            //문제점 겹칩 - 몬스터가 두마리가 서로 앞이 비어있다고 했을때 겹침.
+            //if (enemy.detectfacingDir())
+            //{
+            //    enemy.ChangeState(enemy.idleState);
+            //    yield return null;
+            //    break;
+            //}
 
             moveTime = 0f;
             while(moveTime <= 1f)

@@ -15,6 +15,7 @@ public class EnemyController : MonoBehaviour
     public Tilemap tilemap;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
+    private EnemyStat stat;
 
     public GameObject player;
     private PlayerController playerController;
@@ -37,8 +38,12 @@ public class EnemyController : MonoBehaviour
     {
         animeController = GetComponent<AnimeController>();
         sr = GetComponent<SpriteRenderer>();
+        tilemap = GameObject.Find("GroundTilemap").GetComponent<Tilemap>();
         player = GameObject.Find("Player");
+        playertf = player.transform;
         playerController = player.GetComponent<PlayerController>();
+
+        stat = GetComponent<EnemyStat>();
         idleState = new EnemyIdleState(this);
         attackState = new EnemyAttackState(this);
         traceState = new EnemyTraceState(this);
@@ -173,12 +178,18 @@ public class EnemyController : MonoBehaviour
         worldPos.z = transform.position.z;
         return worldPos;
     }
-    private IEnumerator AttackCool()
+    public bool detectfacingDir()
     {
-        yield return new WaitForSeconds(attackCooltime);
-        canAttack = true;
+        Collider2D hit = Physics2D.OverlapPoint(GetWorldPos(facingDir, 0f));
+        if (hit != null) 
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
-
     public void Attack(Vector3Int dir)
     {
         //canAttack = false;
@@ -188,6 +199,11 @@ public class EnemyController : MonoBehaviour
         if (hit != null)
         {
             Debug.Log(hit.name + " 을(를) 공격!");
+            PlayerStat player = hit.gameObject.GetComponent<PlayerStat>();
+            if (player != null)
+            {
+                player.TakeDamage(stat.Damage);
+            }
         }
         else
         {

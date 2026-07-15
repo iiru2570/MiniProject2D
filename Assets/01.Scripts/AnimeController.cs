@@ -5,10 +5,15 @@ public class AnimeController : MonoBehaviour
 
     private Animator animator;
 
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        animator = GetComponent<Animator>();
+        
     }
     public void SetUp()
     {

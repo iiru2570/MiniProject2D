@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     public AnimeController animeController;
 
     public int visionRange;
+    public PlayerStat stat;
 
     //바라보는 방향
     public Vector3Int facingDir;
@@ -43,6 +44,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animeController = GetComponent<AnimeController>();
+        stat = GetComponent<PlayerStat>();
         facingDir = new Vector3Int(0, -1, 0);
         moveSpeed = 2f;
         visionRange = 3;
@@ -119,6 +121,11 @@ public class PlayerController : MonoBehaviour
         if (hit != null)
         {
             Debug.Log(hit.name + " 을(를) 공격!");
+            EnemyStat enemy = hit.gameObject.GetComponent<EnemyStat>();
+            if (enemy != null) 
+            {
+                enemy.TakeDamage(stat.Damage);
+            }
         }
         else
         {
