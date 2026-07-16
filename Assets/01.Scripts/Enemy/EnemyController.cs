@@ -81,6 +81,7 @@ public class EnemyController : MonoBehaviour
         //x가 양수인지 음수인지 y가 양수인지 음수인지 체크
         int x = EnemyPos.x - PlayerPos.x;
         int y = EnemyPos.y - PlayerPos.y;
+        //같을 때 만약 x방향으로 못가면 y방향으로 가도록 해야함.
         if(Mathf.Abs(x) >= Mathf.Abs(y))
         {
             if (x > 0)
@@ -199,7 +200,7 @@ public class EnemyController : MonoBehaviour
         if (hit != null)
         {
             Debug.Log(hit.name + " 을(를) 공격!");
-            PlayerStat player = hit.gameObject.GetComponent<PlayerStat>();
+            PlayerController player = hit.gameObject.GetComponent<PlayerController>();
             if (player != null)
             {
                 player.TakeDamage(stat.Damage);
@@ -220,4 +221,19 @@ public class EnemyController : MonoBehaviour
         yield return new WaitForSeconds(0.35f);
         animeController.SetMovefalse();
     }
+
+    public void TakeDamage(int damage)
+    {
+        stat.NowHp -= damage;
+        Debug.Log($"{gameObject.name}이 {damage}만큼 대미지를 입음. 남은체력 : {stat.NowHp}");
+        if (stat.NowHp <= 0)
+        {
+            //죽음
+            playerController.stat.Exp += stat.Exp;
+            Debug.Log($"경험치 {stat.Exp}를 얻었습니다. 누적경험치 : {playerController.stat.Exp}");
+            StageManager.instance.ReturnPos(transform.position);
+            EnemyPoolManager.instance.ReturnEnemy(gameObject.name, gameObject);
+        }
+    }
+
 }

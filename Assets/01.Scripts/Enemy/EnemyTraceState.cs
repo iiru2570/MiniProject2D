@@ -50,6 +50,15 @@ public class EnemyTraceState : IEnemyState
             enemyPos = enemy.transform.position;
             movePos = enemy.GetWorldPos(dir, 0.3f);
 
+            if (StageManager.instance.IsUsedPos(movePos))
+            {
+                yield return new WaitForSeconds(1f);
+                enemy.ChangeState(enemy.idleState);
+                break;
+            }
+
+            StageManager.instance.ReturnPos(enemyPos);
+           
             //문제점 겹칩 - 몬스터가 두마리가 서로 앞이 비어있다고 했을때 겹침.
             //if (enemy.detectfacingDir())
             //{

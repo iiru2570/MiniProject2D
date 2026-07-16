@@ -37,15 +37,6 @@ public class EnemyStat : MonoBehaviour
         
     }
 
-    public void TakeDamage(int damage)
-    {
-        nowHp -= damage;
-        Debug.Log($"{gameObject.name}이 {damage}만큼 대미지를 입음. 남은체력 : {nowHp}");
-        if (nowHp <= 0)
-        {
-            //죽음
-            gameObject.SetActive(false);
-        }
-    }
+   
 
 }

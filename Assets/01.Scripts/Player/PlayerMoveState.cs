@@ -20,6 +20,16 @@ public class PlayerMoveState : IPlayerState
         moveTime = 0f;
         playerPos = player.transform.position;
         movePos = player.GetWorldPos(player.facingDir, 0.3f);
+
+
+        if (StageManager.instance.IsUsedPos(movePos))
+        {
+            player.animeController.SetMovefalse();
+            player.ChangeState(player.idleState);
+            return;
+        }
+
+        StageManager.instance.ReturnPos(playerPos);
     }
 
     public void Update()

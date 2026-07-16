@@ -9,7 +9,7 @@ public class StageManager : MonoBehaviour
 
     public Tilemap tilemap;
 
-    private List<Vector3Int> usedPos = new List<Vector3Int>();
+    [SerializeField]private List<Vector3Int> usedPos = new List<Vector3Int>();
     private int summonNum;
 
     private void Awake()
@@ -55,12 +55,13 @@ public class StageManager : MonoBehaviour
             SummonEnemy();
             return;
         }
-
         //스폰된 자리 기억
         usedPos.Add(randPoscell);
 
+
         Vector3 spawnPos = tilemap.GetCellCenterWorld(randPoscell);
         spawnPos.y += 0.3f;
+        
         GameObject enemy = EnemyPoolManager.instance.GetEnemy("Slime");
 
         if(enemy != null)
@@ -71,6 +72,25 @@ public class StageManager : MonoBehaviour
         {
             Debug.Log("slime없음");
         }
+    }
+
+    public bool IsUsedPos(Vector3 pos)
+    {
+        Vector3Int temp = tilemap.WorldToCell(pos);
+        if (usedPos.Contains(temp))
+        {
+            return true;
+        }
+        else
+        {
+            usedPos.Add(temp);
+            return false;
+        }
+    }
+    public void ReturnPos(Vector3 pos)
+    {
+        Vector3Int temp = tilemap.WorldToCell(pos);
+        usedPos.Remove(temp);
     }
 
 

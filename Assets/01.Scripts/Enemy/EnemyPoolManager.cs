@@ -33,6 +33,7 @@ public class EnemyPoolManager : MonoBehaviour
             for (int i = 0; i < poolSize; i++)
             {
                 GameObject go = Instantiate(enemy, parentPool.transform);
+                go.name = enemy.name;
                 go.SetActive(false);
                 pools[enemy.name].Enqueue(go);
             }
@@ -61,7 +62,7 @@ public class EnemyPoolManager : MonoBehaviour
         else
         {
             GameObject go = Instantiate(enemyList.Find(enemy => enemy.name == name));
-            //go.name = name;
+            go.name = name;
             return go;
         }
     }

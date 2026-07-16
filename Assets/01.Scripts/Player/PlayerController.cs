@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour
 
         //초기상태 Idle
         ChangeState(idleState);
+        StageManager.instance.IsUsedPos(transform.position);
     }
 
     // Update is called once per frame
@@ -121,7 +122,7 @@ public class PlayerController : MonoBehaviour
         if (hit != null)
         {
             Debug.Log(hit.name + " 을(를) 공격!");
-            EnemyStat enemy = hit.gameObject.GetComponent<EnemyStat>();
+            EnemyController enemy = hit.gameObject.GetComponent<EnemyController>();
             if (enemy != null) 
             {
                 enemy.TakeDamage(stat.Damage);
@@ -137,5 +138,33 @@ public class PlayerController : MonoBehaviour
         //Debug.Log($"{worldPos} 칸에 공격!");
     }
 
+    public void TakeDamage(int damage)
+    {
+        stat.NowHp -= damage;
+        Debug.Log($"{gameObject.name}이 {damage}만큼 대미지를 입음. 남은체력 : {stat.NowHp}");
+        if (stat.NowHp <= 0)
+        {
+            //죽음
+        }
+    }
+
+    public void UpgradeHp()
+    {
+        //한번 버튼 누를때마다 +20
+        if(stat.Exp / 5 > 0)
+        {
+            stat.MaxHp += 20;
+            stat.Exp -= 5;
+            Debug.Log($"{stat.NowHp} / {stat.MaxHp}");
+        }
+        else
+        {
+            Debug.Log("남은경험치가 없음.");
+        }
+    }
+    public void UpgradeMp()
+    {
+
+    }
 
 }
