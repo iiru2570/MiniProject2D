@@ -13,7 +13,7 @@ public class PlayerStat : MonoBehaviour
     public int MaxMp { get { return maxMp; } set { maxMp = value; } }
 
     private int nowMp;
-    public int NowMp { get { return nowMp; } set { nowHp = value; } }
+    public int NowMp { get { return nowMp; } set { nowMp = value; } }
 
     private int damage;
     public int Damage { get { return damage; } set { damage = value; } }
@@ -27,6 +27,8 @@ public class PlayerStat : MonoBehaviour
     {
         maxHp = 100;
         nowHp = maxHp;
+        maxMp = 100;
+        nowMp = maxMp;
         damage = 10;
         exp = 0;
     }

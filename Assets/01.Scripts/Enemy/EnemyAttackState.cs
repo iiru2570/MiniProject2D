@@ -28,7 +28,7 @@ public class EnemyAttackState : IEnemyState
         {
             if (!enemy.CalDistance())
             {
-                enemy.ChangeState(enemy.idleState);
+                enemy.ChangeState(enemy.traceState);
             }
             else
             {

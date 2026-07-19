@@ -58,6 +58,13 @@ public class EnemyController : MonoBehaviour
         //초기상태
         ChangeState(idleState);
     }
+    private void OnEnable()
+    {
+        if(idleState != null)
+        {
+            ChangeState(idleState);
+        }
+    }
 
     // Update is called once per frame
     void Update()
