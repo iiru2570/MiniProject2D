@@ -80,7 +80,7 @@ public class EnemyController : MonoBehaviour
     }
 
     //방향 계산
-    public Vector3Int GetDirection()
+    public Vector3Int GetDirectionFirst()
     {
         Vector3Int EnemyPos = tilemap.WorldToCell(transform.position);
         Vector3Int PlayerPos = tilemap.WorldToCell(playertf.position);
@@ -105,7 +105,7 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
-                return new Vector3Int(0, 0, 0);
+                return Random.Range(0,2) == 0 ? new Vector3Int(1,0,0) : new Vector3Int(-1,0,0);
             }
 
         }
@@ -123,10 +123,60 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
-                return new Vector3Int(0, 0, 0);
+                return Random.Range(0, 2) == 0 ? new Vector3Int(0, 1, 0) : new Vector3Int(0, -1, 0);
             }
         }
     }
+
+    public Vector3Int GetDirectionSecond()
+    {
+        Vector3Int EnemyPos = tilemap.WorldToCell(transform.position);
+        Vector3Int PlayerPos = tilemap.WorldToCell(playertf.position);
+
+        //x가 양수인지 음수인지 y가 양수인지 음수인지 체크
+        int x = EnemyPos.x - PlayerPos.x;
+        int y = EnemyPos.y - PlayerPos.y;
+
+        if (Mathf.Abs(x) >= Mathf.Abs(y))
+        {
+            if (y > 0)
+            {
+                facingDir = new Vector3Int(0, -1, 0);
+                return facingDir;
+            }
+            else if (y < 0)
+            {
+                facingDir = new Vector3Int(0, 1, 0);
+                return facingDir;
+            }
+            else
+            {
+                return Random.Range(0, 2) == 0 ? new Vector3Int(0, 1, 0) : new Vector3Int(0, -1, 0);
+            }
+
+        }
+        else
+        {
+            if (x > 0)
+            {
+                facingDir = new Vector3Int(-1, 0, 0);
+                sr.flipX = true;
+                return facingDir;
+            }
+            else if (x < 0)
+            {
+                facingDir = new Vector3Int(1, 0, 0);
+                sr.flipX = false;
+                return facingDir;
+            }
+            else
+            {
+                return Random.Range(0, 2) == 0 ? new Vector3Int(1, 0, 0) : new Vector3Int(-1, 0, 0);
+            }
+        }
+
+    }
+
     //플레이어와 몬스터의 거리가 플레이어 시야 내에 있을 경우.
     //visionRange는 일단 보류. 이거 몬스터가 이거 하나 때문에
     //PlayerController 전부를 가지고 있을 필요 없음. 수정 필요.
@@ -201,7 +251,7 @@ public class EnemyController : MonoBehaviour
     public void Attack(Vector3Int dir)
     {
         //canAttack = false;
-        facingDir = GetDirection();
+        facingDir = GetDirectionFirst();
         Collider2D hit = Physics2D.OverlapPoint(GetWorldPos(facingDir, 0f));
 
         if (hit != null)

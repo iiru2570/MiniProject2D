@@ -6,14 +6,14 @@ public class NPCController : MonoBehaviour
 {
 
     private Camera camera;
-    public Tilemap tilemap;
+    //public Tilemap tilemap;
     public GameObject statPanel;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        camera = GameObject.Find("Main Camera").GetComponent<Camera>();
+        camera = Camera.main;
     }
 
     // Update is called once per frame
@@ -34,7 +34,8 @@ public class NPCController : MonoBehaviour
 
         if (hit != null)
         {
-            if(hit.gameObject.name == "NPC")
+            NPC npc = hit.GetComponent<NPC>();
+            if(npc != null)
             {
                 statPanel.SetActive(true);
             }

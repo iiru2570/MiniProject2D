@@ -1,11 +1,10 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerAttackState : IPlayerState
 {
 
     private PlayerController player;
-    private float attackTime;
-    private float attackDuration;
 
     public PlayerAttackState(PlayerController player)
     {
@@ -14,22 +13,22 @@ public class PlayerAttackState : IPlayerState
 
     public void Enter()
     {
-        attackTime = 0f;
-        attackDuration = 0.25f;
-        player.animeController.SetAttacktrue();
+        player.StartCoroutine(player.AttackAnime());
         player.Attack(player.facingDir);
+        player.ChangeState(player.idleState);
     }
     public void Update()
     {
-        attackTime += Time.deltaTime;
-        if(attackTime >= attackDuration)
-        {
-            player.ChangeState(player.idleState);
-        }
+        //attackTime += Time.deltaTime;
+        //if(attackTime >= attackDuration)
+        //{
+        //    player.ChangeState(player.idleState);
+        //}
     }
 
     public void Exit()
     {
-       player.animeController.SetAttackfalse();
+        
     }
+
 }

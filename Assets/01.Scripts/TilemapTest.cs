@@ -14,7 +14,7 @@ public class TilemapTest : MonoBehaviour
     void Start()
     {
         //tilemap = GetComponent<Tilemap>();
-        camera = GameObject.Find("Main Camera").GetComponent<Camera>();
+        camera = Camera.main;
     }
 
     // Update is called once per frame

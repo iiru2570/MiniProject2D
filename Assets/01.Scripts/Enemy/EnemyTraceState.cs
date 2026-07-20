@@ -32,6 +32,7 @@ public class EnemyTraceState : IEnemyState
     {
         while (true)
         {
+            //공격 사거리안에 있을 경우
             if(enemy.CalDistance() == true)
             {
                 //공격전 대기시간
@@ -39,22 +40,29 @@ public class EnemyTraceState : IEnemyState
                 enemy.ChangeState(enemy.attackState);
                 break;
             }
+            //몬스터가 플레이어 시야 밖에 있을 경우
             if (!enemy.IsPlayerVision())
             {
                 enemy.ChangeState(enemy.idleState);
                 break;
             }
            
-
-            dir = enemy.GetDirection();
+            //첫번째 x방향 확인
+            dir = enemy.GetDirectionFirst();
             enemyPos = enemy.transform.position;
             movePos = enemy.GetWorldPos(dir, 0.3f);
 
-            if (StageManager.instance.IsUsedPos(movePos))
+            //막혀있다면
+            if(StageManager.instance.IsUsedPos(movePos))
             {
-                yield return new WaitForSeconds(1f);
-                enemy.ChangeState(enemy.idleState);
-                break;
+                //두번째 y방향 확인
+                dir = enemy.GetDirectionSecond();
+                movePos = enemy.GetWorldPos(dir, 0.3f);
+                if (StageManager.instance.IsUsedPos(movePos))
+                {
+                    yield return new WaitForSeconds(1f);
+                    continue;
+                }
             }
 
             StageManager.instance.ReturnPos(enemyPos);
@@ -77,6 +85,7 @@ public class EnemyTraceState : IEnemyState
 
             enemy.transform.position = movePos;
 
+            //1초뒤 다시 움직임
             yield return new WaitForSeconds(1f);
         }
     } 

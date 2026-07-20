@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
     public IEnumerator AttackAnime()
     {
         animeController.SetAttacktrue();
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.3f);
         animeController.SetAttackfalse();
     }
     private IEnumerator AttackCool()
@@ -144,8 +144,16 @@ public class PlayerController : MonoBehaviour
         Debug.Log($"{gameObject.name}이 {damage}만큼 대미지를 입음. 남은체력 : {stat.NowHp}");
         if (stat.NowHp <= 0)
         {
-            //죽음
+            StartCoroutine(Die());
         }
+    }
+
+    IEnumerator Die()
+    {
+        Debug.Log("플레이어 사망");
+        //사망애니메이션 넣을 자리
+        yield return new WaitForSeconds(1f);
+        SceneChanger.instance.LoadScene(0);
     }
 
     public void UpgradeHp()
