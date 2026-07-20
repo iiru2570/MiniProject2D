@@ -39,18 +39,25 @@ public class PlayerController : MonoBehaviour
     public PlayerIdleState idleState;
     public PlayerMoveState moveState;
     public PlayerAttackState attackState;
+    public PlayerSkillState skill1State;
 
-    void Start()
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animeController = GetComponent<AnimeController>();
         stat = GetComponent<PlayerStat>();
         facingDir = new Vector3Int(0, -1, 0);
-        moveSpeed = 2f;
-        visionRange = 3;
+      
         idleState = new PlayerIdleState(this);
         moveState = new PlayerMoveState(this);
         attackState = new PlayerAttackState(this);
+        skill1State = new PlayerSkillState(this, 1);
+    }
+
+    void Start()
+    {
+        moveSpeed = 2f;
+        visionRange = 3;
 
         canAttack = true;
         attackCooltime = 0.7f;
@@ -136,6 +143,36 @@ public class PlayerController : MonoBehaviour
         //animeController.SetAttackfalse();
         //Debug.Log($"{PlayerPos} 칸에 있음.");
         //Debug.Log($"{worldPos} 칸에 공격!");
+    }
+
+    public void Skill1(Vector3Int dir)
+    {
+        Collider2D hit = Physics2D.OverlapPoint(GetWorldPos(facingDir, 0f));
+
+        if (hit != null)
+        {
+            EnemyController enemy = hit.gameObject.GetComponent<EnemyController>();
+            if (enemy != null)
+            {
+                int damage = stat.GetSkill1Damage();
+                enemy.TakeDamage(damage);
+                //퍼센트가 높으면 스킬 댐지가 체력을 0으로 만들수도있음. (반올림이라)
+                if (damage >= stat.NowHp)
+                {
+                    stat.NowHp = 1;
+                }
+                else
+                {
+                    this.TakeDamage(damage);
+                }
+
+                    Debug.Log(hit.name + " 을(를) 스킬 공격!");
+            }
+        }
+        else
+        {
+            Debug.Log("적이 없음");
+        }
     }
 
     public void TakeDamage(int damage)

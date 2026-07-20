@@ -34,7 +34,7 @@ public class NPCController : MonoBehaviour
 
         if (hit != null)
         {
-            NPC npc = hit.GetComponent<NPC>();
+            NPC npc = hit.gameObject.GetComponent<NPC>();
             if(npc != null)
             {
                 statPanel.SetActive(true);

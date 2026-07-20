@@ -21,6 +21,9 @@ public class PlayerStat : MonoBehaviour
     private int exp;
     public int Exp { get { return exp; } set { exp = value; } }
 
+    private float skill1HpPercent = 0.6f;
+    private float skill2HpPercent = 0.15f;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,12 +36,13 @@ public class PlayerStat : MonoBehaviour
         exp = 0;
     }
 
-    // Update is called once per frame
-    void Update()
+    public int GetSkill1Damage()
     {
-        
+        return Mathf.RoundToInt(nowHp * skill1HpPercent);
     }
 
-
-
+    public int GetSkill2Damage()
+    {
+        return Mathf.RoundToInt(nowHp * skill2HpPercent);
+    }
 }
