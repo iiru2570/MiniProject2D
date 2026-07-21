@@ -31,7 +31,7 @@ public class NPCController : MonoBehaviour
         mousePos = camera.ScreenToWorldPoint(mousePos);
 
         Collider2D hit = Physics2D.OverlapPoint(mousePos);
-
+        
         if (hit != null)
         {
             NPC npc = hit.gameObject.GetComponent<NPC>();

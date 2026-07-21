@@ -9,8 +9,9 @@ public class StageManager : MonoBehaviour
 
     public Tilemap tilemap;
 
+    [SerializeField] private Tilemap wall;
     [SerializeField]private List<Vector3Int> usedPos = new List<Vector3Int>();
-    private int summonNum;
+    [SerializeField]private int summonNum;
 
     private void Awake()
     {
@@ -28,7 +29,7 @@ public class StageManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        summonNum = 5;
+        //summonNum = 5;
         usedPos.Clear();
         for(int i=0; i<summonNum; i++)
         {
@@ -77,6 +78,12 @@ public class StageManager : MonoBehaviour
     public bool IsUsedPos(Vector3 pos)
     {
         Vector3Int temp = tilemap.WorldToCell(pos);
+
+        if (IsWall(temp))
+        {
+            return true;
+        }
+
         if (usedPos.Contains(temp))
         {
             return true;
@@ -107,6 +114,10 @@ public class StageManager : MonoBehaviour
             Vector3 size = new Vector3(area.width, area.height);
             Gizmos.DrawCube(center, size);
         }
+    }
+    public bool IsWall(Vector3Int pos)
+    {
+        return wall.HasTile(pos);
     }
 
 }

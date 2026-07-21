@@ -16,9 +16,14 @@ public class PlayerSkillState : IPlayerState
         player.StartCoroutine(player.AttackAnime());
         if(skillNum == 1)
         {
-            player.Skill1(player.facingDir);
+            player.Skill1();
         }
-        
+        if (skillNum == 2)
+        {
+            player.Skill2();
+        }
+
+
         player.ChangeState(player.idleState);
     }
     public void Update()

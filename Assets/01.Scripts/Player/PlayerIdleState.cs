@@ -78,6 +78,10 @@ public class PlayerIdleState : IPlayerState
         {
             player.ChangeState(player.skill1State);
         }
+        else if (Keyboard.current.digit2Key.wasPressedThisFrame && player.canSkill2)
+        {
+            player.ChangeState(player.skill2State);
+        }
     }
 
     public void Exit()
