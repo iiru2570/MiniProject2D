@@ -13,14 +13,20 @@ public class PlayerSkillState : IPlayerState
 
     public void Enter()
     {
-        player.StartCoroutine(player.AttackAnime());
         if(skillNum == 1)
         {
+            player.StartCoroutine(player.AttackAnime());
             player.Skill1();
         }
         if (skillNum == 2)
         {
+            player.StartCoroutine(player.AttackAnime());
             player.Skill2();
+        }
+        if(skillNum == 3)
+        {
+            //힐 애니메이션 넣어야함.
+            player.Skill3();
         }
 
 
@@ -28,11 +34,7 @@ public class PlayerSkillState : IPlayerState
     }
     public void Update()
     {
-        //attackTime += Time.deltaTime;
-        //if(attackTime >= attackDuration)
-        //{
-        //    player.ChangeState(player.idleState);
-        //}
+       
     }
 
     public void Exit()

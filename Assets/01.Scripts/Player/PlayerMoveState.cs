@@ -34,15 +34,19 @@ public class PlayerMoveState : IPlayerState
 
     public void Update()
     {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame && player.canAttack)
-        {
-            //player.transform.position = movePos;
-            //player.ChangeState(player.attackState);
-            player.StartCoroutine(player.AttackAnime());
-            player.Attack(player.facingDir);
-            return;
-        }
-
+        //if (Keyboard.current.spaceKey.wasPressedThisFrame && player.canAttack)
+        //{
+        //    //player.transform.position = movePos;
+        //    //player.ChangeState(player.attackState);
+        //    player.StartCoroutine(player.AttackAnime());
+        //    player.Attack(player.facingDir);
+        //    return;
+        //}
+        //if (Keyboard.current.digit3Key.wasPressedThisFrame && player.canSkill3)
+        //{
+        //    player.ChangeState(player.skill3State);
+        //    return;
+        //}
         moveTime += Time.deltaTime * player.moveSpeed;
         player.transform.position = Vector3.Lerp(playerPos, movePos, moveTime);
 

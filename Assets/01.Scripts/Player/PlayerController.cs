@@ -39,6 +39,9 @@ public class PlayerController : MonoBehaviour
     public bool canSkill2;
     public float skill2Cooltime;
 
+    public bool canSkill3;
+    public float skill3Cooltime;
+
     private IPlayerState currentState;
     
     public PlayerIdleState idleState;
@@ -46,12 +49,16 @@ public class PlayerController : MonoBehaviour
     public PlayerAttackState attackState;
     public PlayerSkillState skill1State;
     public PlayerSkillState skill2State;
+    public PlayerSkillState skill3State;
+
+    public PlayerHpBar hpBar;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animeController = GetComponent<AnimeController>();
         stat = GetComponent<PlayerStat>();
+        hpBar = GetComponent<PlayerHpBar>();
         facingDir = new Vector3Int(0, -1, 0);
       
         idleState = new PlayerIdleState(this);
@@ -59,6 +66,7 @@ public class PlayerController : MonoBehaviour
         attackState = new PlayerAttackState(this);
         skill1State = new PlayerSkillState(this, 1);
         skill2State = new PlayerSkillState(this, 2);
+        skill3State = new PlayerSkillState(this, 3);
     }
 
     void Start()
@@ -72,8 +80,13 @@ public class PlayerController : MonoBehaviour
         canSkill2 = true;
         skill2Cooltime = 2f;
 
+        canSkill3 = true;
+        skill3Cooltime = 3f;
+
         //초기상태 Idle
         ChangeState(idleState);
+        animeController.SetDown();
+
         StageManager.instance.IsUsedPos(transform.position);
     }
 
@@ -121,19 +134,20 @@ public class PlayerController : MonoBehaviour
 
     public IEnumerator AttackAnime()
     {
+        
         animeController.SetAttacktrue();
         yield return new WaitForSeconds(0.3f);
         animeController.SetAttackfalse();
     }
     private IEnumerator AttackCool()
     {
+        canAttack = false;
         yield return new WaitForSeconds(attackCooltime);
         canAttack = true;
     }
 
     public void Attack(Vector3Int dir)
     {
-        canAttack = false;
         Collider2D hit = Physics2D.OverlapPoint(GetWorldPos(facingDir, 0f));
 
         if (hit != null)
@@ -183,6 +197,7 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("적이 없음");
         }
+        StartCoroutine(AttackCool());
     }
     public void Skill2()
     {
@@ -248,11 +263,34 @@ public class PlayerController : MonoBehaviour
         return vList;
     }
 
+    public void Skill3()
+    {
+        int healAmount = stat.GetSkill3Heal();
+
+        if(stat.NowHp + healAmount > stat.MaxHp)
+        {
+            stat.NowHp = stat.MaxHp;
+        }
+        else
+        {
+            stat.NowHp += healAmount;
+        }
+        Debug.Log($"{stat.NowHp} / {stat.MaxHp}");
+        StartCoroutine(Skill3Cool());
+    }
+
+
     private IEnumerator Skill2Cool()
     {
         canSkill2 = false;
         yield return new WaitForSeconds(skill2Cooltime);
         canSkill2 = true;
+    }
+    private IEnumerator Skill3Cool()
+    {
+        canSkill3 = false;
+        yield return new WaitForSeconds(skill3Cooltime);
+        canSkill3 = true;
     }
 
     public void TakeDamage(int damage)

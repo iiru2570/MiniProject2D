@@ -23,6 +23,7 @@ public class PlayerStat : MonoBehaviour
 
     private float skill1HpPercent = 0.6f;
     private float skill2HpPercent = 0.15f;
+    private float skill3Percent = 0.3f;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -36,13 +37,19 @@ public class PlayerStat : MonoBehaviour
         exp = 0;
     }
 
+    //현재 체력의 60퍼센트 대미지
     public int GetSkill1Damage()
     {
         return Mathf.RoundToInt(nowHp * skill1HpPercent);
     }
-
+    //현재 체력의 15퍼센트 대미지
     public int GetSkill2Damage()
     {
         return Mathf.RoundToInt(nowHp * skill2HpPercent);
+    }
+    //전체 체력의 30퍼센트 회복
+    public int GetSkill3Heal()
+    {
+        return Mathf.RoundToInt(MaxHp * skill3Percent);
     }
 }
