@@ -28,7 +28,6 @@ public class PlayerMoveState : IPlayerState
             player.ChangeState(player.idleState);
             return;
         }
-
         StageManager.instance.ReturnPos(playerPos);
     }
 

@@ -1,6 +1,7 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Tilemaps;
+using static UnityEditor.PlayerSettings;
 
 public class StageManager : MonoBehaviour
 {
@@ -10,8 +11,9 @@ public class StageManager : MonoBehaviour
     public Tilemap tilemap;
 
     [SerializeField] private Tilemap wall;
-    [SerializeField]private List<Vector3Int> usedPos = new List<Vector3Int>();
-    [SerializeField]private int summonNum;
+    [SerializeField] private Tilemap portal;
+    [SerializeField] private List<Vector3Int> usedPos = new List<Vector3Int>();
+    [SerializeField] private int summonNum;
 
     private void Awake()
     {
@@ -63,7 +65,7 @@ public class StageManager : MonoBehaviour
         Vector3 spawnPos = tilemap.GetCellCenterWorld(randPoscell);
         spawnPos.y += 0.3f;
         
-        GameObject enemy = EnemyPoolManager.instance.GetEnemy("Slime");
+        GameObject enemy = EnemyPoolManager.instance.GetEnemy("NormalDevil");
 
         if(enemy != null)
         {
@@ -79,6 +81,8 @@ public class StageManager : MonoBehaviour
     {
         Vector3Int temp = tilemap.WorldToCell(pos);
 
+        IsPortal(temp);
+
         if (IsWall(temp))
         {
             return true;
@@ -92,6 +96,14 @@ public class StageManager : MonoBehaviour
         {
             usedPos.Add(temp);
             return false;
+        }
+    }
+    public void UsePos(Vector3 pos)
+    {
+        Vector3Int temp = tilemap.WorldToCell(pos);
+        if (!usedPos.Contains(temp))
+        {
+            usedPos.Add(temp);
         }
     }
     public void ReturnPos(Vector3 pos)
@@ -119,5 +131,15 @@ public class StageManager : MonoBehaviour
     {
         return wall.HasTile(pos);
     }
-
+    public void IsPortal(Vector3Int pos)
+    {
+        if (portal.HasTile(pos))
+        {
+            SceneChanger.instance.LoadScene(0);
+        }
+        else
+        {
+            return;
+        }
+    }
 }

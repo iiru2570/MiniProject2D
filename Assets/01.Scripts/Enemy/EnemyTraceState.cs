@@ -17,7 +17,6 @@ public class EnemyTraceState : IEnemyState
     public void Enter()
     {
         moveTime = 0f;
-        enemy.animeController.SetMovetrue();
         enemy.StartCoroutine(Trace());
     }
     public void Update()
@@ -32,8 +31,9 @@ public class EnemyTraceState : IEnemyState
     {
         while (true)
         {
+            enemy.animeController.SetMovetrue();
             //공격 사거리안에 있을 경우
-            if(enemy.CalDistance() == true)
+            if (enemy.CalDistance() == true)
             {
                 //공격전 대기시간
                 //yield return new WaitForSeconds(1f);
@@ -65,7 +65,14 @@ public class EnemyTraceState : IEnemyState
                 }
             }
 
-            StageManager.instance.ReturnPos(enemyPos);
+            StageManager.instance.ReturnPos(enemy.currentPos);
+            enemy.currentPos = movePos;
+
+            //방향 바꾸기 (시간)
+            //이거 위치 반환 하기전에 두면 칸 하나 먹는 버그있음.
+            enemy.EnemyIdleAnime();
+            yield return new WaitForSeconds(0.5f);
+
            
             //문제점 겹칩 - 몬스터가 두마리가 서로 앞이 비어있다고 했을때 겹침.
             //if (enemy.detectfacingDir())
@@ -85,6 +92,7 @@ public class EnemyTraceState : IEnemyState
 
             enemy.transform.position = movePos;
 
+            enemy.animeController.SetMovefalse();
             //1초뒤 다시 움직임
             yield return new WaitForSeconds(1f);
         }

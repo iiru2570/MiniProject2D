@@ -23,11 +23,12 @@ public class EnemyController : MonoBehaviour
     public Vector3Int facingDir;
     public Transform playertf;
     public float moveSpeed;
+    public Vector3 currentPos;
 
     public bool canAttack;
     public float attackCooltime;
 
-    private IEnemyState currentState;
+    [SerializeField] private IEnemyState currentState;
 
     public EnemyIdleState idleState;
     public EnemyAttackState attackState;
@@ -54,8 +55,12 @@ public class EnemyController : MonoBehaviour
         facingDir = new Vector3Int(0, -1, 0);
         moveSpeed = 2.0f;
 
+        //최근 위치 저장
+        currentPos = transform.position; 
+        //StageManager.instance.IsUsedPos(currentPos);
 
         //초기상태
+        animeController.SetDown();
         ChangeState(idleState);
     }
     private void OnEnable()
@@ -94,13 +99,11 @@ public class EnemyController : MonoBehaviour
             if (x > 0)
             {
                 facingDir = new Vector3Int(-1, 0, 0);
-                sr.flipX = true;
                 return facingDir;
             }
             else if(x < 0)
             {
                 facingDir= new Vector3Int(1, 0, 0);
-                sr.flipX = false;
                 return facingDir;
             }
             else
@@ -160,13 +163,11 @@ public class EnemyController : MonoBehaviour
             if (x > 0)
             {
                 facingDir = new Vector3Int(-1, 0, 0);
-                sr.flipX = true;
                 return facingDir;
             }
             else if (x < 0)
             {
                 facingDir = new Vector3Int(1, 0, 0);
-                sr.flipX = false;
                 return facingDir;
             }
             else
@@ -252,6 +253,7 @@ public class EnemyController : MonoBehaviour
     {
         //canAttack = false;
         facingDir = GetDirectionFirst();
+
         Collider2D hit = Physics2D.OverlapPoint(GetWorldPos(facingDir, 0f));
 
         if (hit != null)
@@ -288,9 +290,27 @@ public class EnemyController : MonoBehaviour
             //죽음
             playerController.stat.Exp += stat.Exp;
             Debug.Log($"경험치 {stat.Exp}를 얻었습니다. 누적경험치 : {playerController.stat.Exp}");
-            StageManager.instance.ReturnPos(transform.position);
+            StageManager.instance.ReturnPos(currentPos);
             EnemyPoolManager.instance.ReturnEnemy(gameObject.name, gameObject);
         }
     }
-
+    public void EnemyIdleAnime()
+    {
+        if (facingDir == new Vector3Int(0, 1, 0))
+        {
+            animeController.SetUp();
+        }
+        else if (facingDir == new Vector3Int(0, -1, 0))
+        {
+            animeController.SetDown();
+        }
+        else if (facingDir == new Vector3Int(1, 0, 0))
+        {
+            animeController.SetRight();
+        }
+        else if (facingDir == new Vector3Int(-1, 0, 0))
+        {
+            animeController.SetLeft();
+        }
+    }
 }
