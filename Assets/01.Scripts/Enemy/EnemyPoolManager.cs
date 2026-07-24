@@ -78,4 +78,9 @@ public class EnemyPoolManager : MonoBehaviour
         pools[name].Enqueue(go);
     }
 
+
+    public List<GameObject> GetEnemyList()
+    {
+        return enemyList;
+    }
 }

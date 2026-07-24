@@ -6,9 +6,6 @@ public class EnemyAttackState : IEnemyState
 
     private EnemyController enemy;
 
-    private float attackTime;
-    private float attackDuration;
-
     public EnemyAttackState(EnemyController enemy)
     {
         this.enemy = enemy;
@@ -17,26 +14,11 @@ public class EnemyAttackState : IEnemyState
     public void Enter()
     {
         enemy.animeController.SetAttacktrue();
-        //attackTime = 0f;
-        //attackDuration = 3f;
-        //enemy.Attack(enemy.facingDir);
         enemy.StartCoroutine(AttackCo());
     }
     public void Update()
     {
-        //attackTime += Time.deltaTime;
-        //if (attackTime >= attackDuration)
-        //{
-        //    if (!enemy.CalDistance())
-        //    {
-        //        enemy.ChangeState(enemy.traceState);
-        //    }
-        //    else
-        //    {
-        //        enemy.ChangeState(enemy.attackState);
-        //    }
-           
-        //}
+
     }
     public void Exit()
     {

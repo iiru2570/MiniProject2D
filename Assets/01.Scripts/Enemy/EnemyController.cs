@@ -15,7 +15,7 @@ public class EnemyController : MonoBehaviour
     public Tilemap tilemap;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
-    private EnemyStat stat;
+    public EnemyStat stat;
 
     public GameObject player;
     private PlayerController playerController;
@@ -24,6 +24,7 @@ public class EnemyController : MonoBehaviour
     public Transform playertf;
     public float moveSpeed;
     public Vector3 currentPos;
+    
 
     public bool canAttack;
     public float attackCooltime;
@@ -87,12 +88,12 @@ public class EnemyController : MonoBehaviour
     //방향 계산
     public Vector3Int GetDirectionFirst()
     {
-        Vector3Int EnemyPos = tilemap.WorldToCell(transform.position);
-        Vector3Int PlayerPos = tilemap.WorldToCell(playertf.position);
+        Vector3Int enemyPos = tilemap.WorldToCell(transform.position);
+        Vector3Int playerPos = tilemap.WorldToCell(playertf.position);
 
         //x가 양수인지 음수인지 y가 양수인지 음수인지 체크
-        int x = EnemyPos.x - PlayerPos.x;
-        int y = EnemyPos.y - PlayerPos.y;
+        int x = enemyPos.x - playerPos.x;
+        int y = enemyPos.y - playerPos.y;
         //같을 때 만약 x방향으로 못가면 y방향으로 가도록 해야함.
         if(Mathf.Abs(x) >= Mathf.Abs(y))
         {
@@ -133,12 +134,12 @@ public class EnemyController : MonoBehaviour
 
     public Vector3Int GetDirectionSecond()
     {
-        Vector3Int EnemyPos = tilemap.WorldToCell(transform.position);
-        Vector3Int PlayerPos = tilemap.WorldToCell(playertf.position);
+        Vector3Int enemyPos = tilemap.WorldToCell(transform.position);
+        Vector3Int playerPos = tilemap.WorldToCell(playertf.position);
 
         //x가 양수인지 음수인지 y가 양수인지 음수인지 체크
-        int x = EnemyPos.x - PlayerPos.x;
-        int y = EnemyPos.y - PlayerPos.y;
+        int x = enemyPos.x - playerPos.x;
+        int y = enemyPos.y - playerPos.y;
 
         if (Mathf.Abs(x) >= Mathf.Abs(y))
         {
@@ -183,11 +184,11 @@ public class EnemyController : MonoBehaviour
     //PlayerController 전부를 가지고 있을 필요 없음. 수정 필요.
     public bool IsPlayerVision()
     {
-        Vector3Int EnemyPos = tilemap.WorldToCell(transform.position);
-        Vector3Int PlayerPos = tilemap.WorldToCell(playertf.position);
+        Vector3Int enemyPos = tilemap.WorldToCell(transform.position);
+        Vector3Int playerPos = tilemap.WorldToCell(playertf.position);
 
-        int x = Mathf.Abs(EnemyPos.x - PlayerPos.x);
-        int y = Mathf.Abs(EnemyPos.y - PlayerPos.y);
+        int x = Mathf.Abs(enemyPos.x - playerPos.x);
+        int y = Mathf.Abs(enemyPos.y - playerPos.y);
 
         if (Mathf.Max(x, y) <= playerController.visionRange)
         {
@@ -203,11 +204,11 @@ public class EnemyController : MonoBehaviour
     //거리 계산 - 플레이어랑 한칸 이내인지 확인
     public bool CalDistance()
     {
-        Vector3Int EnemyPos = tilemap.WorldToCell(transform.position);
-        Vector3Int PlayerPos = tilemap.WorldToCell(playertf.position);
+        Vector3Int enemyPos = tilemap.WorldToCell(transform.position);
+        Vector3Int playerPos = tilemap.WorldToCell(playertf.position);
 
-        int x = Mathf.Abs(EnemyPos.x - PlayerPos.x);
-        int y = Mathf.Abs(EnemyPos.y - PlayerPos.y);
+        int x = Mathf.Abs(enemyPos.x - playerPos.x);
+        int y = Mathf.Abs(enemyPos.y - playerPos.y);
 
         //대각선 1칸은 빼야함.
         if(x == 1 && y == 0)
@@ -228,10 +229,10 @@ public class EnemyController : MonoBehaviour
     // yf는 마지막에 위치에서 캐릭터가 타일 위에 있는 것 처럼 하기 위해서 조정
     public Vector3 GetWorldPos(Vector3Int dir, float yf)
     {
-        Vector3Int PlayerPos = tilemap.WorldToCell(transform.position);
+        Vector3Int playerPos = tilemap.WorldToCell(transform.position);
         //Debug.Log(cellPos);
-        Vector3Int MovePos = PlayerPos + dir;
-        Vector3 worldPos = tilemap.CellToWorld(MovePos);
+        Vector3Int movePos = playerPos + dir;
+        Vector3 worldPos = tilemap.CellToWorld(movePos);
         worldPos.x += tilemap.cellSize.x / 2f;
         worldPos.y += tilemap.cellSize.y / 2f + yf;
         worldPos.z = transform.position.z;

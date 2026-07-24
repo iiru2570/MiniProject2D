@@ -35,8 +35,6 @@ public class EnemyTraceState : IEnemyState
             //공격 사거리안에 있을 경우
             if (enemy.CalDistance() == true)
             {
-                //공격전 대기시간
-                //yield return new WaitForSeconds(1f);
                 enemy.ChangeState(enemy.attackState);
                 break;
             }

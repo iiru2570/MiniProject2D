@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         moveSpeed = 2f;
-        visionRange = 3;
+        visionRange = 5;
 
         canAttack = true;
         attackCooltime = 0.7f;
@@ -105,10 +105,10 @@ public class PlayerController : MonoBehaviour
 
     public Vector3 GetWorldPos(Vector3Int dir, float yf)
     {
-        Vector3Int PlayerPos = tilemap.WorldToCell(transform.position);
+        Vector3Int playerPos = tilemap.WorldToCell(transform.position);
         //Debug.Log(cellPos);
-        Vector3Int MovePos = PlayerPos + dir;
-        Vector3 worldPos = tilemap.CellToWorld(MovePos);
+        Vector3Int movePos = playerPos + dir;
+        Vector3 worldPos = tilemap.CellToWorld(movePos);
         worldPos.x += tilemap.cellSize.x / 2f;
         worldPos.y += tilemap.cellSize.y / 2f + yf;
         worldPos.z = transform.position.z;

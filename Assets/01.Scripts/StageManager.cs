@@ -63,16 +63,16 @@ public class StageManager : MonoBehaviour
 
         Vector3 spawnPos = tilemap.GetCellCenterWorld(randPoscell);
         spawnPos.y += 0.3f;
-        
-        GameObject enemy = EnemyPoolManager.instance.GetEnemy("NormalDevil");
 
-        if(enemy != null)
+        //몬스터 리스트에서 랜덤
+        List<GameObject> list = EnemyPoolManager.instance.GetEnemyList();
+        int rand = Random.Range(0, list.Count);
+
+        GameObject enemy = EnemyPoolManager.instance.GetEnemy(list[rand].name);
+
+        if (enemy != null)
         {
             enemy.transform.position = spawnPos;
-        }
-        else
-        {
-            Debug.Log("slime없음");
         }
     }
 

@@ -15,6 +15,7 @@ public class EnemyStat : MonoBehaviour
     private int exp;
     public int Exp { get { return exp; } set { exp = value; } }
 
+    public int rangedDamage;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,6 +30,7 @@ public class EnemyStat : MonoBehaviour
         nowHp = maxHp;
         damage = 5;
         exp = 10;
+        rangedDamage = 3;
     }
 
     // Update is called once per frame
