@@ -17,25 +17,34 @@ public class CameraMove : MonoBehaviour
 
     private void Start()
     {
+        camera = Camera.main;
         velocity = Vector3.zero;
         BoundCal();
     }
 
     private void BoundCal()
     {
-        BoundsInt cellBounds = tilemap.cellBounds;
 
-        Vector3 worldMin = tilemap.CellToWorld(new Vector3Int(cellBounds.xMin, cellBounds.yMin, 0));
-        Vector3 worldMax = tilemap.CellToWorld(new Vector3Int(cellBounds.xMax, cellBounds.yMax, 0));
+        //실제 타일이 존재하는영역으로 압축
+        tilemap.CompressBounds();
+
+        Bounds bounds = tilemap.localBounds;
+
+        Vector3 worldMin = tilemap.transform.TransformPoint(bounds.min);
+        Vector3 worldMax = tilemap.transform.TransformPoint(bounds.max);
+
+
+        //float camHeight = camera.orthographicSize;
+        //float camWidth = camHeight + camera.aspect;
 
         //좌
-        minX = worldMin.x + 11f;
+        minX = worldMin.x;
         //우
-        maxX = worldMax.x - 9f;
+        maxX = worldMax.x;
         //아래
-        minY = worldMin.y + 8f;
+        minY = worldMin.y;
         //위
-        maxY = worldMax.y - 7f;
+        maxY = worldMax.y;
 
         if(minX > maxX)
         {
@@ -48,7 +57,7 @@ public class CameraMove : MonoBehaviour
             maxY = minY;
         }
 
-
+        Debug.Log($"{worldMax} / {worldMin}");
     }
 
 

@@ -29,12 +29,20 @@ public class PlayerStat : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        maxHp = 100;
-        nowHp = maxHp;
-        maxMp = 100;
-        nowMp = maxMp;
-        damage = 10;
-        exp = 0;
+
+        if(GameManager.instance != null)
+        {
+            GameManager.instance.LoadStat(this);
+        }
+        else
+        {
+            maxHp = 100;
+            nowHp = maxHp;
+            maxMp = 100;
+            nowMp = maxMp;
+            damage = 10;
+            exp = 0;
+        }
     }
 
     //현재 체력의 60퍼센트 대미지

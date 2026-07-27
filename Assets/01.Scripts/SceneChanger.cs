@@ -5,8 +5,11 @@ public class SceneChanger : MonoBehaviour
 {
     public static SceneChanger instance;
 
+    public int nowStage;
+
     private void Awake()
     {
+        nowStage = 2;
         if (instance == null)
         {
             instance = this;

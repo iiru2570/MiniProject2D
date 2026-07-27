@@ -292,6 +292,7 @@ public class EnemyController : MonoBehaviour
             playerController.stat.Exp += stat.Exp;
             Debug.Log($"경험치 {stat.Exp}를 얻었습니다. 누적경험치 : {playerController.stat.Exp}");
             StageManager.instance.ReturnPos(currentPos);
+            StageManager.instance.CountEnemy();
             EnemyPoolManager.instance.ReturnEnemy(gameObject.name, gameObject);
         }
     }

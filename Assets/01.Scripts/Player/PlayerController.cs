@@ -308,6 +308,7 @@ public class PlayerController : MonoBehaviour
         Debug.Log("플레이어 사망");
         //사망애니메이션 넣을 자리
         yield return new WaitForSeconds(1f);
+        GameManager.instance.ResetStat();
         SceneChanger.instance.LoadScene(0);
     }
 

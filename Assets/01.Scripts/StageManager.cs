@@ -9,8 +9,13 @@ public class StageManager : MonoBehaviour
 
     public Tilemap tilemap;
 
+    [SerializeField] private PlayerStat stat;
+
     [SerializeField] private Tilemap wall;
-    [SerializeField] private Tilemap portal;
+    [SerializeField] private Tilemap portalObj;
+    [SerializeField] private Tilemap portalNext;
+    [SerializeField] private Tilemap portalPrevios;
+    [SerializeField] private Tilemap portalLobby;
     [SerializeField] private List<Vector3Int> usedPos = new List<Vector3Int>();
     [SerializeField] private int summonNum;
 
@@ -76,11 +81,33 @@ public class StageManager : MonoBehaviour
         }
     }
 
+    public void CountEnemy()
+    {
+        summonNum--;
+        if(summonNum == 0)
+        {
+            portalObj.gameObject.SetActive(false);
+        }
+    }
+
+
     public bool IsUsedPos(Vector3 pos)
     {
         Vector3Int temp = tilemap.WorldToCell(pos);
 
         IsPortal(temp);
+
+        if (IsPortalObj(temp))
+        {
+            if (summonNum == 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
 
         if (IsWall(temp))
         {
@@ -130,11 +157,35 @@ public class StageManager : MonoBehaviour
     {
         return wall.HasTile(pos);
     }
+    public bool IsPortalObj(Vector3Int pos)
+    {
+        return portalObj.HasTile(pos);
+    }
     public void IsPortal(Vector3Int pos)
     {
-        if (portal.HasTile(pos))
+        if (portalPrevios.HasTile(pos))
         {
-            SceneChanger.instance.LoadScene(0);
+            if (SceneChanger.instance.nowStage == 2)
+            {
+                Debug.Log("뒤로 갈 스테이지가 없음");
+            }
+            else
+            {
+                GameManager.instance.SaveStat(stat);
+                SceneChanger.instance.LoadScene(SceneChanger.instance.nowStage);
+            }   
+        }
+
+        if (portalNext.HasTile(pos))
+        {
+            GameManager.instance.SaveStat(stat);
+            SceneChanger.instance.LoadScene(SceneChanger.instance.nowStage + 1);
+            SceneChanger.instance.nowStage += 1;
+        }
+        if (portalLobby.HasTile(pos))
+        {
+            GameManager.instance.SaveStat(stat);
+            SceneChanger.instance.LoadScene(2);
         }
         else
         {

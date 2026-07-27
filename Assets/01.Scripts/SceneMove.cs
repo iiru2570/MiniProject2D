@@ -3,8 +3,6 @@ using UnityEngine.UI;
 
 public class SceneMove : MonoBehaviour
 {
-
-    [SerializeField] private int sceneNum;
     private Button btn;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -13,13 +11,21 @@ public class SceneMove : MonoBehaviour
         btn = GetComponent<Button>();
         if(btn != null)
         {
-            btn.onClick.AddListener(Move);
+            btn.onClick.AddListener(MoveNext);
         }
     }
 
-    public void Move()
+    //tutorial 버튼
+    public void MoveNext()
     {
-        SceneChanger.instance.LoadScene(sceneNum);
+        SceneChanger.instance.LoadScene(1);
+        //기본 로비 씬이 2
+        SceneChanger.instance.nowStage = 2;
     }
+    //public void MovePrevios()
+    //{
+    //    SceneChanger.instance.LoadScene(SceneChanger.instance.nowStage-1);
+    //    SceneChanger.instance.nowStage -= 1;
+    //}
 
 }

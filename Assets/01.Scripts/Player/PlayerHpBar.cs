@@ -14,6 +14,10 @@ public class PlayerHpBar : MonoBehaviour
     }
     public void SetFill()
     {
+        if(stat.MaxHp <= 0)
+        {
+            return;
+        }
         hpFill.fillAmount = (float)stat.NowHp / (float)stat.MaxHp;
     }
 }
