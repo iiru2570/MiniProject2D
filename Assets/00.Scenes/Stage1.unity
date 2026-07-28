@@ -28728,6 +28728,26 @@ PrefabInstance:
       propertyPath: tilemap
       value: 
       objectReference: {fileID: 294397900}
+    - target: {fileID: 2571718531725991934, guid: 70a61e0da0ba9264cb5f267af457cdb6,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.17350322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2571718531725991934, guid: 70a61e0da0ba9264cb5f267af457cdb6,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.17325419
+      objectReference: {fileID: 0}
+    - target: {fileID: 2571718531725991934, guid: 70a61e0da0ba9264cb5f267af457cdb6,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0040979646
+      objectReference: {fileID: 0}
+    - target: {fileID: 2571718531725991934, guid: 70a61e0da0ba9264cb5f267af457cdb6,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.1007413
+      objectReference: {fileID: 0}
     - target: {fileID: 4010104342337161505, guid: 70a61e0da0ba9264cb5f267af457cdb6,
         type: 3}
       propertyPath: m_LocalPosition.x

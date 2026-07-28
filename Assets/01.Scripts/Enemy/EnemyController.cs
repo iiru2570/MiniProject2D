@@ -24,7 +24,9 @@ public class EnemyController : MonoBehaviour
     public Transform playertf;
     public float moveSpeed;
     public Vector3 currentPos;
-    
+
+    public bool canPattern;
+
 
     public bool canAttack;
     public float attackCooltime;
@@ -63,6 +65,8 @@ public class EnemyController : MonoBehaviour
         //초기상태
         animeController.SetDown();
         ChangeState(idleState);
+
+        canPattern = false;
     }
     private void OnEnable()
     {

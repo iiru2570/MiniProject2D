@@ -44,7 +44,6 @@ public class EnemyTraceState : IEnemyState
                 enemy.ChangeState(enemy.idleState);
                 break;
             }
-           
             //첫번째 x방향 확인
             dir = enemy.GetDirectionFirst();
             enemyPos = enemy.transform.position;

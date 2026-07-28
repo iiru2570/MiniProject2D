@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class EnemyIdleState : IEnemyState
@@ -24,6 +25,4 @@ public class EnemyIdleState : IEnemyState
     {
         
     }
-
-    
 }

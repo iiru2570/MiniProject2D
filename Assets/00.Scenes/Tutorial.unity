@@ -22515,6 +22515,26 @@ PrefabInstance:
       propertyPath: tilemap
       value: 
       objectReference: {fileID: 393695179}
+    - target: {fileID: 2571718531725991934, guid: 70a61e0da0ba9264cb5f267af457cdb6,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.15277797
+      objectReference: {fileID: 0}
+    - target: {fileID: 2571718531725991934, guid: 70a61e0da0ba9264cb5f267af457cdb6,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.15466517
+      objectReference: {fileID: 0}
+    - target: {fileID: 2571718531725991934, guid: 70a61e0da0ba9264cb5f267af457cdb6,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0000028908253
+      objectReference: {fileID: 0}
+    - target: {fileID: 2571718531725991934, guid: 70a61e0da0ba9264cb5f267af457cdb6,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.1096099
+      objectReference: {fileID: 0}
     - target: {fileID: 4010104342337161505, guid: 70a61e0da0ba9264cb5f267af457cdb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22668,6 +22688,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyPoolManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2715588603629817865, guid: 421841f8c7e95154ca0fb00ca65d300a,
+        type: 3}
+      propertyPath: enemyList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2715588603629817865, guid: 421841f8c7e95154ca0fb00ca65d300a,
+        type: 3}
+      propertyPath: 'enemyList.Array.data[0]'
+      value: 
+      objectReference: {fileID: 692088749359606561, guid: 101fbac000886784da88e1938188810a,
+        type: 3}
+    - target: {fileID: 2715588603629817865, guid: 421841f8c7e95154ca0fb00ca65d300a,
+        type: 3}
+      propertyPath: 'enemyList.Array.data[1]'
+      value: 
+      objectReference: {fileID: 692088749359606561, guid: d8ed8cdcabf313c4e918188d96978cb2,
+        type: 3}
     - target: {fileID: 5302658779445981006, guid: 421841f8c7e95154ca0fb00ca65d300a,
         type: 3}
       propertyPath: m_LocalPosition.x

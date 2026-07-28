@@ -3,6 +3,8 @@ using UnityEngine;
 public class EnemyStat : MonoBehaviour
 {
 
+    public EnemyData data;
+
     private int maxHp;
     public int MaxHp { get { return maxHp; } set { maxHp = value; } }
 
@@ -25,12 +27,11 @@ public class EnemyStat : MonoBehaviour
 
     private void OnEnable()
     {
-        //Å×½ºÆ®
-        maxHp = 30;
-        nowHp = maxHp;
-        damage = 5;
-        exp = 10;
-        rangedDamage = 3;
+        maxHp = data.maxHp;
+        nowHp = data.maxHp;
+        damage = data.damage;
+        exp = data.exp;
+        rangedDamage = data.rangedDamage;
     }
 
     // Update is called once per frame

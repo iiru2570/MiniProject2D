@@ -4,17 +4,23 @@ using UnityEngine;
 public class Telegraph : MonoBehaviour
 {
     private SpriteRenderer sp;
+    
     private float duration;
 
     private void Awake()
     {
         sp = GetComponent<SpriteRenderer>();
+        //±âº»°ª
         duration = 2f;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
+    }
+    public void SetDuration(float duration)
+    {
+        this.duration = duration;
     }
 
     public IEnumerator FadeIn()

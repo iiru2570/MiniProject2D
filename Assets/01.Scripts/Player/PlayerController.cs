@@ -314,10 +314,10 @@ public class PlayerController : MonoBehaviour
 
     public void UpgradeHp()
     {
-        //한번 버튼 누를때마다 +20
+        //한번 버튼 누를때마다 +5
         if(stat.Exp / 5 > 0)
         {
-            stat.MaxHp += 20;
+            stat.MaxHp += 5;
             stat.Exp -= 5;
             Debug.Log($"{stat.NowHp} / {stat.MaxHp}");
         }

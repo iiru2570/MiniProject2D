@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -7152979450848035805}
   - component: {fileID: -1116854470023077958}
   m_Layer: 0
-  m_Name: NormalDevilWizard
+  m_Name: TNormalDevilWizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c197db0e1afde04b923c9175ce50b1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStat
-  data: {fileID: 11400000, guid: f208c40635a93704d9e660a1430a2216, type: 2}
+  data: {fileID: 11400000, guid: 4f764d507f678784282b8f22b2dcac47, type: 2}
   rangedDamage: 0
 --- !u!114 &5474330179889226777
 MonoBehaviour:
