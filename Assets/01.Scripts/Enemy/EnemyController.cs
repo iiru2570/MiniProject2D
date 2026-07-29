@@ -25,8 +25,10 @@ public class EnemyController : MonoBehaviour
     public float moveSpeed;
     public Vector3 currentPos;
 
-    public bool canPattern;
-
+    public bool canPattern1;
+    public bool canPattern2;
+    public float skillCooltime;
+    private float lastSkillTime;
 
     public bool canAttack;
     public float attackCooltime;
@@ -36,6 +38,7 @@ public class EnemyController : MonoBehaviour
     public EnemyIdleState idleState;
     public EnemyAttackState attackState;
     public EnemyTraceState traceState;
+    public EnemySkillState skillState;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -51,6 +54,7 @@ public class EnemyController : MonoBehaviour
         idleState = new EnemyIdleState(this);
         attackState = new EnemyAttackState(this);
         traceState = new EnemyTraceState(this);
+        skillState = new EnemySkillState(this);
 
         attackCooltime = 3f;
         canAttack = true;
@@ -66,7 +70,10 @@ public class EnemyController : MonoBehaviour
         animeController.SetDown();
         ChangeState(idleState);
 
-        canPattern = false;
+        canPattern1 = true;
+        canPattern2 = true;
+        skillCooltime = 10f;
+        lastSkillTime = -999f;
     }
     private void OnEnable()
     {
@@ -318,5 +325,14 @@ public class EnemyController : MonoBehaviour
         {
             animeController.SetLeft();
         }
+    }
+    public bool CanUseSkill()
+    {
+        return Time.time - lastSkillTime >= skillCooltime;
+    }
+
+    public void SetSkillUsed()
+    {
+        lastSkillTime = Time.time;
     }
 }

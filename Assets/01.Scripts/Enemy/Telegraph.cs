@@ -23,7 +23,7 @@ public class Telegraph : MonoBehaviour
         this.duration = duration;
     }
 
-    public IEnumerator FadeIn()
+    public IEnumerator Fade()
     {
         Color color = sp.color;
         color.a = 0f;
@@ -51,7 +51,7 @@ public class Telegraph : MonoBehaviour
 
     private IEnumerator Detect(Vector3 pos, int damage)
     {
-        yield return StartCoroutine(FadeIn());
+        yield return StartCoroutine(Fade());
 
         Collider2D hit = Physics2D.OverlapPoint(pos);
 

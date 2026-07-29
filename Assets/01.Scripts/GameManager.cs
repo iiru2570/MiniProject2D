@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public int savedMaxHp;
     public int savedNowHp;
+    public int savedMaxMp;
+    public int savedNowMp;
     public int savedExp;
     public int savedDamage;
 
@@ -15,6 +17,8 @@ public class GameManager : MonoBehaviour
 
         savedMaxHp = 100;
         savedNowHp = 100;
+        savedMaxMp = 100;
+        savedNowMp = 100;
         savedExp = 0;
         savedDamage = 10;
 
@@ -34,6 +38,8 @@ public class GameManager : MonoBehaviour
     {
         savedMaxHp = stat.MaxHp;
         savedNowHp = stat.NowHp;
+        savedMaxMp = stat.MaxMp;
+        savedNowMp = stat.NowMp;
         savedExp = stat.Exp;
         savedDamage = stat.Damage;
     }
@@ -42,6 +48,8 @@ public class GameManager : MonoBehaviour
     {
         stat.MaxHp = savedMaxHp;
         stat.NowHp = savedNowHp;
+        stat.MaxMp = savedMaxMp;
+        stat.NowMp = savedNowMp;
         stat.Exp = savedExp;
         stat.Damage = savedDamage;
     }
@@ -49,6 +57,8 @@ public class GameManager : MonoBehaviour
     {
         savedMaxHp = 100;
         savedNowHp = 100;
+        savedMaxMp = 100;
+        savedNowMp = 100;
         savedExp = 0;
         savedDamage = 10;
     }

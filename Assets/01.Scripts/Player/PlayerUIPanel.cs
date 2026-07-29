@@ -6,11 +6,15 @@ public class PlayerUIPanel : MonoBehaviour
 
     public PlayerStat stat;
     public TextMeshProUGUI hpNum;
+    public TextMeshProUGUI mpNum;
     public TextMeshProUGUI expNum;
+    public TextMeshProUGUI attack;
 
     void Update()
     {
-        hpNum.text = $"{stat.NowHp}";
+        attack.text = $"Att [ {stat.Damage} ]";
+        hpNum.text = $"{stat.NowHp} / {stat.MaxHp}";
+        mpNum.text = $"{stat.NowMp} / {stat.MaxMp}";
         expNum.text = $"{stat.Exp}";
     }
 }

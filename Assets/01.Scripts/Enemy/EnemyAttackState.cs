@@ -38,7 +38,7 @@ public class EnemyAttackState : IEnemyState
             yield return new WaitForSeconds(0.5f);
             enemy.animeController.SetAttackfalse();
             yield return new WaitForSeconds(1f);
-            enemy.ChangeState(enemy.attackState);
+            enemy.ChangeState(enemy.traceState);
         }
     }
 }

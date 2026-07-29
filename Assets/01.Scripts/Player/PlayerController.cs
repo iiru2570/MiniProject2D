@@ -27,20 +27,21 @@ public class PlayerController : MonoBehaviour
     //바라보는 방향
     public Vector3Int facingDir;
 
-    //움직이는 속도, 시간, 움직이고 있는지 체크하는 변수
-    private bool isMoving;
-    WaitForSeconds moveWait;
+    //움직이는 속도, 시간
     public float moveSpeed;
     public float moveTime;
 
     public bool canAttack;
     public float attackCooltime;
+    private float attackStartTime;
 
     public bool canSkill2;
     public float skill2Cooltime;
+    private float skill2StartTime;
 
     public bool canSkill3;
     public float skill3Cooltime;
+    private float skill3StartTime;
 
     private IPlayerState currentState;
     
@@ -141,6 +142,7 @@ public class PlayerController : MonoBehaviour
     }
     private IEnumerator AttackCool()
     {
+        attackStartTime = Time.time;
         canAttack = false;
         yield return new WaitForSeconds(attackCooltime);
         canAttack = true;
@@ -169,64 +171,87 @@ public class PlayerController : MonoBehaviour
         //Debug.Log($"{worldPos} 칸에 공격!");
     }
 
-    public void Skill1()
+    private bool UseMp(int mp)
     {
-        Collider2D hit = Physics2D.OverlapPoint(GetWorldPos(facingDir, 0f));
-
-        if (hit != null)
+        if (stat.NowMp / mp > 0)
         {
-            EnemyController enemy = hit.gameObject.GetComponent<EnemyController>();
-            if (enemy != null)
-            {
-                int damage = stat.GetSkill1Damage();
-                enemy.TakeDamage(damage);
-                //퍼센트가 높으면 스킬 댐지가 체력을 0으로 만들수도있음. (반올림이라)
-                if (damage >= stat.NowHp)
-                {
-                    stat.NowHp = 1;
-                }
-                else
-                {
-                    this.TakeDamage(damage);
-                }
-
-                Debug.Log(hit.name + " 을(를) 스킬 공격!");
-            }
+            stat.NowMp -= mp;
+            return true;
         }
         else
         {
-            Debug.Log("적이 없음");
+            Debug.Log("mp부족");
+            return false;
         }
-        StartCoroutine(AttackCool());
+        
     }
-    public void Skill2()
+
+    public void Skill1()
     {
-        int damage = stat.GetSkill2Damage();
-        List<Vector3Int> vList = Skill2Cal();
-        for(int i=0; i<vList.Count; i++)
+        if (UseMp(10))
         {
-            Collider2D hit = Physics2D.OverlapPoint(GetWorldPos(vList[i], 0f));
+            Collider2D hit = Physics2D.OverlapPoint(GetWorldPos(facingDir, 0f));
 
             if (hit != null)
             {
                 EnemyController enemy = hit.gameObject.GetComponent<EnemyController>();
-                if(enemy != null)
+                if (enemy != null)
                 {
+                    int damage = stat.GetSkill1Damage();
                     enemy.TakeDamage(damage);
-                }
-                Debug.Log(hit.name + " 을(를) 스킬 공격!");
-            }
-        }
-        if (damage >= stat.NowHp)
-        {
-            stat.NowHp = 1;
-        }
-        else
-        {
-            this.TakeDamage(damage);
-        }
+                    //퍼센트가 높으면 스킬 댐지가 체력을 0으로 만들수도있음. (반올림이라)
+                    if (damage >= stat.NowHp)
+                    {
+                        stat.NowHp = 1;
+                    }
+                    else
+                    {
+                        this.TakeDamage(damage);
+                    }
 
-        StartCoroutine(Skill2Cool());
+                    Debug.Log(hit.name + " 을(를) 스킬 공격!");
+
+                }
+            }
+            else
+            {
+                Debug.Log("적이 없음");
+            }
+            StartCoroutine(AttackCool());
+        }
+    }
+    public void Skill2()
+    {
+        if (UseMp(20))
+        {
+            int damage = stat.GetSkill2Damage();
+            List<Vector3Int> vList = Skill2Cal();
+            for (int i = 0; i < vList.Count; i++)
+            {
+                Collider2D hit = Physics2D.OverlapPoint(GetWorldPos(vList[i], 0f));
+
+                if (hit != null)
+                {
+                    EnemyController enemy = hit.gameObject.GetComponent<EnemyController>();
+                    if (enemy != null)
+                    {
+                        enemy.TakeDamage(damage);
+                        Debug.Log(hit.name + " 을(를) 스킬 공격!");
+                        
+                    }
+
+                }
+            }
+            if (damage >= stat.NowHp)
+            {
+                stat.NowHp = 1;
+            }
+            else
+            {
+                this.TakeDamage(damage);
+            }
+            StartCoroutine(Skill2Cool());
+        }
     }
 
     public List<Vector3Int> Skill2Cal()
@@ -265,34 +290,66 @@ public class PlayerController : MonoBehaviour
 
     public void Skill3()
     {
-        int healAmount = stat.GetSkill3Heal();
-
-        if(stat.NowHp + healAmount > stat.MaxHp)
+        if (UseMp(30))
         {
-            stat.NowHp = stat.MaxHp;
+            int healAmount = stat.GetSkill3Heal();
+            if (stat.NowHp + healAmount > stat.MaxHp)
+            {
+                stat.NowHp = stat.MaxHp;
+            }
+            else
+            {
+                stat.NowHp += healAmount;
+            }
+            StartCoroutine(Skill3Cool());
         }
-        else
-        {
-            stat.NowHp += healAmount;
-        }
+        
         Debug.Log($"{stat.NowHp} / {stat.MaxHp}");
-        StartCoroutine(Skill3Cool());
+        
     }
 
 
     private IEnumerator Skill2Cool()
     {
+        skill2StartTime = Time.time;
         canSkill2 = false;
         yield return new WaitForSeconds(skill2Cooltime);
         canSkill2 = true;
     }
     private IEnumerator Skill3Cool()
     {
+        skill3StartTime = Time.time;
         canSkill3 = false;
         yield return new WaitForSeconds(skill3Cooltime);
         canSkill3 = true;
     }
-
+    public float GetSkill1CooldownRatio()
+    {
+        if (canAttack)
+        {
+            return 0f;
+        }
+        float temp = Time.time - attackStartTime;
+        return Mathf.Clamp01(1f - (temp / attackCooltime));
+    }
+    public float GetSkill2CooldownRatio()
+    {
+        if (canSkill2)
+        {
+            return 0f;
+        }
+        float temp = Time.time - skill2StartTime;
+        return Mathf.Clamp01(1f - (temp / skill2Cooltime));
+    }
+    public float GetSkill3CooldownRatio()
+    {
+        if (canSkill3)
+        {
+            return 0f;
+        }
+        float temp = Time.time - skill3StartTime;
+        return Mathf.Clamp01(1f - (temp / skill3Cooltime));
+    }
     public void TakeDamage(int damage)
     {
         stat.NowHp -= damage;
@@ -314,11 +371,11 @@ public class PlayerController : MonoBehaviour
 
     public void UpgradeHp()
     {
-        //한번 버튼 누를때마다 +5
-        if(stat.Exp / 5 > 0)
+        //한번 버튼 누를때마다 +10
+        if(stat.Exp / 10 > 0)
         {
-            stat.MaxHp += 5;
-            stat.Exp -= 5;
+            stat.MaxHp += 10;
+            stat.Exp -= 10;
             Debug.Log($"{stat.NowHp} / {stat.MaxHp}");
         }
         else
@@ -328,7 +385,17 @@ public class PlayerController : MonoBehaviour
     }
     public void UpgradeMp()
     {
-
+        //한번 버튼 누를때마다 +5
+        if (stat.Exp / 10 > 0)
+        {
+            stat.MaxMp += 5;
+            stat.Exp -= 10;
+            Debug.Log($"{stat.NowMp} / {stat.MaxMp}");
+        }
+        else
+        {
+            Debug.Log("남은경험치가 없음.");
+        }
     }
 
 }

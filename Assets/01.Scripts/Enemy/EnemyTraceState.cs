@@ -32,6 +32,13 @@ public class EnemyTraceState : IEnemyState
         while (true)
         {
             enemy.animeController.SetMovetrue();
+
+            if (enemy.IsPlayerVision() && enemy.CanUseSkill())
+            {
+                enemy.ChangeState(enemy.skillState);
+                break;
+            }
+
             //공격 사거리안에 있을 경우
             if (enemy.CalDistance() == true)
             {
@@ -44,6 +51,7 @@ public class EnemyTraceState : IEnemyState
                 enemy.ChangeState(enemy.idleState);
                 break;
             }
+            
             //첫번째 x방향 확인
             dir = enemy.GetDirectionFirst();
             enemyPos = enemy.transform.position;

@@ -1,0 +1,6801 @@
+fileFormatVersion: 2
+guid: 04586ce8ecc63b14da8a80dcbe454e34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2835005050306282373
+    second: skillicons-1--colored_0
+  - first:
+      213: -1751021972847778018
+    second: skillicons-1--colored_1
+  - first:
+      213: -5972858948983296238
+    second: skillicons-1--colored_2
+  - first:
+      213: -8040470075609604701
+    second: skillicons-1--colored_3
+  - first:
+      213: -2268024003646170801
+    second: skillicons-1--colored_4
+  - first:
+      213: 3012986304102852502
+    second: skillicons-1--colored_5
+  - first:
+      213: 825178179836255152
+    second: skillicons-1--colored_6
+  - first:
+      213: -3445295021496024274
+    second: skillicons-1--colored_7
+  - first:
+      213: -783484535052253811
+    second: skillicons-1--colored_8
+  - first:
+      213: 446713168689026425
+    second: skillicons-1--colored_9
+  - first:
+      213: -453477208551513999
+    second: skillicons-1--colored_10
+  - first:
+      213: -4481204201963924892
+    second: skillicons-1--colored_11
+  - first:
+      213: -6711433869411941653
+    second: skillicons-1--colored_12
+  - first:
+      213: -2984400298224739015
+    second: skillicons-1--colored_13
+  - first:
+      213: 2594803486294705092
+    second: skillicons-1--colored_14
+  - first:
+      213: -3534937671374454125
+    second: skillicons-1--colored_15
+  - first:
+      213: 2671783507412404123
+    second: skillicons-1--colored_16
+  - first:
+      213: -3686158020860988780
+    second: skillicons-1--colored_17
+  - first:
+      213: 633697348361102105
+    second: skillicons-1--colored_18
+  - first:
+      213: 228177055456881382
+    second: skillicons-1--colored_19
+  - first:
+      213: 7359794926706241672
+    second: skillicons-1--colored_20
+  - first:
+      213: -3383712564906813616
+    second: skillicons-1--colored_21
+  - first:
+      213: 8061472722965526741
+    second: skillicons-1--colored_22
+  - first:
+      213: 1623272358047314750
+    second: skillicons-1--colored_23
+  - first:
+      213: -9038308831377137131
+    second: skillicons-1--colored_24
+  - first:
+      213: 8546344070165969590
+    second: skillicons-1--colored_25
+  - first:
+      213: -6570231832749300433
+    second: skillicons-1--colored_26
+  - first:
+      213: -2484004064203975550
+    second: skillicons-1--colored_27
+  - first:
+      213: 3153436796208199171
+    second: skillicons-1--colored_28
+  - first:
+      213: 7444127259415634394
+    second: skillicons-1--colored_29
+  - first:
+      213: 5428511994635068426
+    second: skillicons-1--colored_30
+  - first:
+      213: -2703616046705015064
+    second: skillicons-1--colored_31
+  - first:
+      213: 2439858972318048039
+    second: skillicons-1--colored_32
+  - first:
+      213: 8328333921588303741
+    second: skillicons-1--colored_33
+  - first:
+      213: 3112871664314058088
+    second: skillicons-1--colored_34
+  - first:
+      213: 8434086769466914701
+    second: skillicons-1--colored_35
+  - first:
+      213: -5320982135930027287
+    second: skillicons-1--colored_36
+  - first:
+      213: 5357819081637380267
+    second: skillicons-1--colored_37
+  - first:
+      213: -8680662934271708262
+    second: skillicons-1--colored_38
+  - first:
+      213: -3576814054240614872
+    second: skillicons-1--colored_39
+  - first:
+      213: 9194374444841778311
+    second: skillicons-1--colored_40
+  - first:
+      213: 7182415658778768818
+    second: skillicons-1--colored_41
+  - first:
+      213: 7049392222263670154
+    second: skillicons-1--colored_42
+  - first:
+      213: -1948668783804235671
+    second: skillicons-1--colored_43
+  - first:
+      213: 42280153755014468
+    second: skillicons-1--colored_44
+  - first:
+      213: 8232558673611392816
+    second: skillicons-1--colored_45
+  - first:
+      213: 722645128604043817
+    second: skillicons-1--colored_46
+  - first:
+      213: 7819978157974410415
+    second: skillicons-1--colored_47
+  - first:
+      213: 6287584199380604765
+    second: skillicons-1--colored_48
+  - first:
+      213: 1704606243914800524
+    second: skillicons-1--colored_49
+  - first:
+      213: 145691895484602422
+    second: skillicons-1--colored_50
+  - first:
+      213: 4715680029997213434
+    second: skillicons-1--colored_51
+  - first:
+      213: 8079100722838270675
+    second: skillicons-1--colored_52
+  - first:
+      213: -7166241548578682970
+    second: skillicons-1--colored_53
+  - first:
+      213: -4532914297979208761
+    second: skillicons-1--colored_54
+  - first:
+      213: 4894607688168415452
+    second: skillicons-1--colored_55
+  - first:
+      213: 7601689930995015259
+    second: skillicons-1--colored_56
+  - first:
+      213: 5253000864384002236
+    second: skillicons-1--colored_57
+  - first:
+      213: -5711508297345223009
+    second: skillicons-1--colored_58
+  - first:
+      213: 2136250496407470679
+    second: skillicons-1--colored_59
+  - first:
+      213: 7567938550869810771
+    second: skillicons-1--colored_60
+  - first:
+      213: -9031061760892706559
+    second: skillicons-1--colored_61
+  - first:
+      213: 940565668454871692
+    second: skillicons-1--colored_62
+  - first:
+      213: 6458347596248538476
+    second: skillicons-1--colored_63
+  - first:
+      213: 2353344596186228596
+    second: skillicons-1--colored_64
+  - first:
+      213: -8741853005181709724
+    second: skillicons-1--colored_65
+  - first:
+      213: -508506491031307813
+    second: skillicons-1--colored_66
+  - first:
+      213: -6347682694577347645
+    second: skillicons-1--colored_67
+  - first:
+      213: 1151602198597975215
+    second: skillicons-1--colored_68
+  - first:
+      213: 2780511180168792312
+    second: skillicons-1--colored_69
+  - first:
+      213: 8608086528095139692
+    second: skillicons-1--colored_70
+  - first:
+      213: -8383471518023227585
+    second: skillicons-1--colored_71
+  - first:
+      213: -3187378272812062857
+    second: skillicons-1--colored_72
+  - first:
+      213: 9075894025935280397
+    second: skillicons-1--colored_73
+  - first:
+      213: 2287213533443597120
+    second: skillicons-1--colored_74
+  - first:
+      213: 1993016355782978769
+    second: skillicons-1--colored_75
+  - first:
+      213: -7294985463643001636
+    second: skillicons-1--colored_76
+  - first:
+      213: -409482604753550954
+    second: skillicons-1--colored_77
+  - first:
+      213: 3138890692870076137
+    second: skillicons-1--colored_78
+  - first:
+      213: 7499729944087728315
+    second: skillicons-1--colored_79
+  - first:
+      213: 7408295337013421523
+    second: skillicons-1--colored_80
+  - first:
+      213: -5158855575566053630
+    second: skillicons-1--colored_81
+  - first:
+      213: 4131591286157472074
+    second: skillicons-1--colored_82
+  - first:
+      213: -7764562055406715886
+    second: skillicons-1--colored_83
+  - first:
+      213: 7070328538558653785
+    second: skillicons-1--colored_84
+  - first:
+      213: -6187300494846724202
+    second: skillicons-1--colored_85
+  - first:
+      213: 8776317692876481576
+    second: skillicons-1--colored_86
+  - first:
+      213: -7566373577939702458
+    second: skillicons-1--colored_87
+  - first:
+      213: 2785406785695692743
+    second: skillicons-1--colored_88
+  - first:
+      213: -6030005531822801333
+    second: skillicons-1--colored_89
+  - first:
+      213: 5808443337635023319
+    second: skillicons-1--colored_90
+  - first:
+      213: -8134730411055605119
+    second: skillicons-1--colored_91
+  - first:
+      213: -958435817649612872
+    second: skillicons-1--colored_92
+  - first:
+      213: -187593592138844556
+    second: skillicons-1--colored_93
+  - first:
+      213: 8118359920648279648
+    second: skillicons-1--colored_94
+  - first:
+      213: -7720301108714341121
+    second: skillicons-1--colored_95
+  - first:
+      213: 2879305031856645351
+    second: skillicons-1--colored_96
+  - first:
+      213: 109231076591591285
+    second: skillicons-1--colored_97
+  - first:
+      213: -3979175703452552560
+    second: skillicons-1--colored_98
+  - first:
+      213: -6857087223308587151
+    second: skillicons-1--colored_99
+  - first:
+      213: -5364725296565301774
+    second: skillicons-1--colored_100
+  - first:
+      213: 7853356896658578451
+    second: skillicons-1--colored_101
+  - first:
+      213: -7946885842661956031
+    second: skillicons-1--colored_102
+  - first:
+      213: 7676626553337364906
+    second: skillicons-1--colored_103
+  - first:
+      213: 1362034898195996224
+    second: skillicons-1--colored_104
+  - first:
+      213: -3035463943720516179
+    second: skillicons-1--colored_105
+  - first:
+      213: -4557031024739508686
+    second: skillicons-1--colored_106
+  - first:
+      213: -988891022907131772
+    second: skillicons-1--colored_107
+  - first:
+      213: 5871232165768423669
+    second: skillicons-1--colored_108
+  - first:
+      213: -7699922242001496616
+    second: skillicons-1--colored_109
+  - first:
+      213: -2192376906249658735
+    second: skillicons-1--colored_110
+  - first:
+      213: 5588845228312601090
+    second: skillicons-1--colored_111
+  - first:
+      213: -5099653331231363976
+    second: skillicons-1--colored_112
+  - first:
+      213: 7621982940028888092
+    second: skillicons-1--colored_113
+  - first:
+      213: 2875737523356282737
+    second: skillicons-1--colored_114
+  - first:
+      213: 4207290659259527506
+    second: skillicons-1--colored_115
+  - first:
+      213: 3322266819363953837
+    second: skillicons-1--colored_116
+  - first:
+      213: -7039686391792767826
+    second: skillicons-1--colored_117
+  - first:
+      213: -2379265629545995969
+    second: skillicons-1--colored_118
+  - first:
+      213: 7682004083703751405
+    second: skillicons-1--colored_119
+  - first:
+      213: -6391175922284881408
+    second: skillicons-1--colored_120
+  - first:
+      213: -3493646352069773225
+    second: skillicons-1--colored_121
+  - first:
+      213: 1603013358656705171
+    second: skillicons-1--colored_122
+  - first:
+      213: 2779021172876368508
+    second: skillicons-1--colored_123
+  - first:
+      213: -3038989649564044273
+    second: skillicons-1--colored_124
+  - first:
+      213: -2802600000988663679
+    second: skillicons-1--colored_125
+  - first:
+      213: 3920395692743174689
+    second: skillicons-1--colored_126
+  - first:
+      213: 2062058091791539371
+    second: skillicons-1--colored_127
+  - first:
+      213: -8757687246230758152
+    second: skillicons-1--colored_128
+  - first:
+      213: 2394226660189231319
+    second: skillicons-1--colored_129
+  - first:
+      213: -5742520850536983058
+    second: skillicons-1--colored_130
+  - first:
+      213: 6668270861336927381
+    second: skillicons-1--colored_131
+  - first:
+      213: -2032718198420843132
+    second: skillicons-1--colored_132
+  - first:
+      213: -4839279791507309431
+    second: skillicons-1--colored_133
+  - first:
+      213: -7108130753237448303
+    second: skillicons-1--colored_134
+  - first:
+      213: -4081860751400847315
+    second: skillicons-1--colored_135
+  - first:
+      213: 889369248753338534
+    second: skillicons-1--colored_136
+  - first:
+      213: 1940979427957314053
+    second: skillicons-1--colored_137
+  - first:
+      213: -2504482832853473199
+    second: skillicons-1--colored_138
+  - first:
+      213: 9135487520567524952
+    second: skillicons-1--colored_139
+  - first:
+      213: 8205366817577121056
+    second: skillicons-1--colored_140
+  - first:
+      213: 7202081494944560791
+    second: skillicons-1--colored_141
+  - first:
+      213: -6129726813673306149
+    second: skillicons-1--colored_142
+  - first:
+      213: -3813606315812840366
+    second: skillicons-1--colored_143
+  - first:
+      213: -8138572165361100395
+    second: skillicons-1--colored_144
+  - first:
+      213: -8986867422197929527
+    second: skillicons-1--colored_145
+  - first:
+      213: -5810169736393062494
+    second: skillicons-1--colored_146
+  - first:
+      213: 6578137456167519526
+    second: skillicons-1--colored_147
+  - first:
+      213: 722345068162103059
+    second: skillicons-1--colored_148
+  - first:
+      213: 4276094238971237242
+    second: skillicons-1--colored_149
+  - first:
+      213: 1760248806165966624
+    second: skillicons-1--colored_150
+  - first:
+      213: 1145115225174456008
+    second: skillicons-1--colored_151
+  - first:
+      213: -5799030987308191604
+    second: skillicons-1--colored_152
+  - first:
+      213: -697260696950530753
+    second: skillicons-1--colored_153
+  - first:
+      213: -8120280345598463851
+    second: skillicons-1--colored_154
+  - first:
+      213: 5440119654016989763
+    second: skillicons-1--colored_155
+  - first:
+      213: -8940338636229984483
+    second: skillicons-1--colored_156
+  - first:
+      213: -3624500491049555413
+    second: skillicons-1--colored_157
+  - first:
+      213: 5521644878769045004
+    second: skillicons-1--colored_158
+  - first:
+      213: 2770681423217707631
+    second: skillicons-1--colored_159
+  - first:
+      213: -69828435661785333
+    second: skillicons-1--colored_160
+  - first:
+      213: -2400531983794655677
+    second: skillicons-1--colored_161
+  - first:
+      213: 1597396651378487393
+    second: skillicons-1--colored_162
+  - first:
+      213: 787888801179792620
+    second: skillicons-1--colored_163
+  - first:
+      213: -105319547193928787
+    second: skillicons-1--colored_164
+  - first:
+      213: -3174508840226148947
+    second: skillicons-1--colored_165
+  - first:
+      213: -2465465584778159251
+    second: skillicons-1--colored_166
+  - first:
+      213: 1053698534721860245
+    second: skillicons-1--colored_167
+  - first:
+      213: -8726287733140429615
+    second: skillicons-1--colored_168
+  - first:
+      213: -3914171192573420227
+    second: skillicons-1--colored_169
+  - first:
+      213: -7964090786205952384
+    second: skillicons-1--colored_170
+  - first:
+      213: -7808921180446610442
+    second: skillicons-1--colored_171
+  - first:
+      213: -4312355266242478907
+    second: skillicons-1--colored_172
+  - first:
+      213: -6333522000591385755
+    second: skillicons-1--colored_173
+  - first:
+      213: 5064386874783173433
+    second: skillicons-1--colored_174
+  - first:
+      213: 1017660337917369591
+    second: skillicons-1--colored_175
+  - first:
+      213: 7874250578222945476
+    second: skillicons-1--colored_176
+  - first:
+      213: -2914820820728202130
+    second: skillicons-1--colored_177
+  - first:
+      213: 6658509350710144365
+    second: skillicons-1--colored_178
+  - first:
+      213: -4873781053486622477
+    second: skillicons-1--colored_179
+  - first:
+      213: -790311269770148812
+    second: skillicons-1--colored_180
+  - first:
+      213: -8449899987206086921
+    second: skillicons-1--colored_181
+  - first:
+      213: 15661962777856121
+    second: skillicons-1--colored_182
+  - first:
+      213: 6097726570664274962
+    second: skillicons-1--colored_183
+  - first:
+      213: 6470058787419322511
+    second: skillicons-1--colored_184
+  - first:
+      213: -4753789185699561618
+    second: skillicons-1--colored_185
+  - first:
+      213: -1879048579631609411
+    second: skillicons-1--colored_186
+  - first:
+      213: -5035832197870881141
+    second: skillicons-1--colored_187
+  - first:
+      213: 8478975232400980457
+    second: skillicons-1--colored_188
+  - first:
+      213: -8079294055950471691
+    second: skillicons-1--colored_189
+  - first:
+      213: 5182814366198474965
+    second: skillicons-1--colored_190
+  - first:
+      213: -7339821896915132492
+    second: skillicons-1--colored_191
+  - first:
+      213: 5091399101235675373
+    second: skillicons-1--colored_192
+  - first:
+      213: -2595099443640762704
+    second: skillicons-1--colored_193
+  - first:
+      213: -7779010168961581107
+    second: skillicons-1--colored_194
+  - first:
+      213: 3370706039550433958
+    second: skillicons-1--colored_195
+  - first:
+      213: 7315617670655919764
+    second: skillicons-1--colored_196
+  - first:
+      213: 5254736083058653046
+    second: skillicons-1--colored_197
+  - first:
+      213: 3667548641527806153
+    second: skillicons-1--colored_198
+  - first:
+      213: 259248517948716896
+    second: skillicons-1--colored_199
+  - first:
+      213: -2867342764143899843
+    second: skillicons-1--colored_200
+  - first:
+      213: 1341602846399113116
+    second: skillicons-1--colored_201
+  - first:
+      213: 1175457151219072403
+    second: skillicons-1--colored_202
+  - first:
+      213: 1342815885451739675
+    second: skillicons-1--colored_203
+  - first:
+      213: -141318521601540256
+    second: skillicons-1--colored_204
+  - first:
+      213: -3291433879110016002
+    second: skillicons-1--colored_205
+  - first:
+      213: 8889407435152714817
+    second: skillicons-1--colored_206
+  - first:
+      213: -4795902253165929057
+    second: skillicons-1--colored_207
+  - first:
+      213: -5112790300451033696
+    second: skillicons-1--colored_208
+  - first:
+      213: -6751565207251532995
+    second: skillicons-1--colored_209
+  - first:
+      213: 1943265849968889424
+    second: skillicons-1--colored_210
+  - first:
+      213: 3255896563072505327
+    second: skillicons-1--colored_211
+  - first:
+      213: 6407457829042801960
+    second: skillicons-1--colored_212
+  - first:
+      213: 267390653870985230
+    second: skillicons-1--colored_213
+  - first:
+      213: -2021313339060045727
+    second: skillicons-1--colored_214
+  - first:
+      213: -6448597802901007329
+    second: skillicons-1--colored_215
+  - first:
+      213: 7391072895481879197
+    second: skillicons-1--colored_216
+  - first:
+      213: 4534351971587971069
+    second: skillicons-1--colored_217
+  - first:
+      213: -7760145725526950872
+    second: skillicons-1--colored_218
+  - first:
+      213: 8763750706764338931
+    second: skillicons-1--colored_219
+  - first:
+      213: 6110926946634160604
+    second: skillicons-1--colored_220
+  - first:
+      213: 1239483624661716406
+    second: skillicons-1--colored_221
+  - first:
+      213: -2989897967208608879
+    second: skillicons-1--colored_222
+  - first:
+      213: -5453800466919654909
+    second: skillicons-1--colored_223
+  - first:
+      213: 4778021100294044036
+    second: skillicons-1--colored_224
+  - first:
+      213: 7509287449786018500
+    second: skillicons-1--colored_225
+  - first:
+      213: 4316472020002672041
+    second: skillicons-1--colored_226
+  - first:
+      213: 5746075798686268209
+    second: skillicons-1--colored_227
+  - first:
+      213: -8293518617709830589
+    second: skillicons-1--colored_228
+  - first:
+      213: 2988576619466362286
+    second: skillicons-1--colored_229
+  - first:
+      213: 6594544166593643822
+    second: skillicons-1--colored_230
+  - first:
+      213: 7431666953192508310
+    second: skillicons-1--colored_231
+  - first:
+      213: 3241352153060773544
+    second: skillicons-1--colored_232
+  - first:
+      213: -4325632308741839911
+    second: skillicons-1--colored_233
+  - first:
+      213: 19492009978110300
+    second: skillicons-1--colored_234
+  - first:
+      213: 6234393082470017128
+    second: skillicons-1--colored_235
+  - first:
+      213: -1179267853541126953
+    second: skillicons-1--colored_236
+  - first:
+      213: 6302803443368697803
+    second: skillicons-1--colored_237
+  - first:
+      213: 524486388235495639
+    second: skillicons-1--colored_238
+  - first:
+      213: 41483243687581276
+    second: skillicons-1--colored_239
+  - first:
+      213: -7455421180604002359
+    second: skillicons-1--colored_240
+  - first:
+      213: -4341640292546567331
+    second: skillicons-1--colored_241
+  - first:
+      213: -63221606138501308
+    second: skillicons-1--colored_242
+  - first:
+      213: -7484256329989131142
+    second: skillicons-1--colored_243
+  - first:
+      213: 5788137411589654200
+    second: skillicons-1--colored_244
+  - first:
+      213: -9052316781320535137
+    second: skillicons-1--colored_245
+  - first:
+      213: 8322954412976291374
+    second: skillicons-1--colored_246
+  - first:
+      213: -2720752175768578555
+    second: skillicons-1--colored_247
+  - first:
+      213: 9186988325581490435
+    second: skillicons-1--colored_248
+  - first:
+      213: 7286881220567018019
+    second: skillicons-1--colored_249
+  - first:
+      213: -2228817272538052265
+    second: skillicons-1--colored_250
+  - first:
+      213: 8548293882458848790
+    second: skillicons-1--colored_251
+  - first:
+      213: -5028767973806329514
+    second: skillicons-1--colored_252
+  - first:
+      213: -2971969961277775196
+    second: skillicons-1--colored_253
+  - first:
+      213: -1218081683731949929
+    second: skillicons-1--colored_254
+  - first:
+      213: -5594005525185486736
+    second: skillicons-1--colored_255
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skillicons-1--colored_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c3e006de908a8d0800000000000000
+      internalID: -2835005050306282373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1721820bce13b7e0800000000000000
+      internalID: -1751021972847778018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f66547e642c1da0800000000000000
+      internalID: -5972858948983296238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad912401138a6090800000000000000
+      internalID: -8040470075609604701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f495c986f2c5680e0800000000000000
+      internalID: -2268024003646170801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697ea21841740d920800000000000000
+      internalID: 3012986304102852502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb1b8dbe2f937b00800000000000000
+      internalID: 825178179836255152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23ce419e6adf20d0800000000000000
+      internalID: -3445295021496024274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85c23967f08025f0800000000000000
+      internalID: -783484535052253811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975d238924b033600800000000000000
+      internalID: 446713168689026425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1702d86a1ece4b9f0800000000000000
+      internalID: -453477208551513999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462d3ff45809fc1c0800000000000000
+      internalID: -4481204201963924892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be20d2854723cd2a0800000000000000
+      internalID: -6711433869411941653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d9eb4adb74596d0800000000000000
+      internalID: -2984400298224739015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c38a8ed508920420800000000000000
+      internalID: 2594803486294705092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3924492bae061fec0800000000000000
+      internalID: -3534937671374454125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97401cb1f4141520800000000000000
+      internalID: 2671783507412404123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492bf946fc228dcc0800000000000000
+      internalID: -3686158020860988780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913ab2081685bc800800000000000000
+      internalID: 633697348361102105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eae660b2d5aa2300800000000000000
+      internalID: 228177055456881382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8803c02fd7e332660800000000000000
+      internalID: 7359794926706241672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05714b29953aa01d0800000000000000
+      internalID: -3383712564906813616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d87cd2eaba10ef60800000000000000
+      internalID: 8061472722965526741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33fe13fb95078610800000000000000
+      internalID: 1623272358047314750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5126d7f310a719280800000000000000
+      internalID: -9038308831377137131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba328eb6a6ba9670800000000000000
+      internalID: 8546344070165969590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25a30d65f8d1d4a0800000000000000
+      internalID: -6570231832749300433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284de74e67b078dd0800000000000000
+      internalID: -2484004064203975550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306b2abfe0243cb20800000000000000
+      internalID: 3153436796208199171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad165404d4ade4760800000000000000
+      internalID: 7444127259415634394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04ab2bc5e2f55b40800000000000000
+      internalID: 5428511994635068426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e60a17a783da7ad0800000000000000
+      internalID: -2703616046705015064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f1113fece1cd120800000000000000
+      internalID: 2439858972318048039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d775b17839f249370800000000000000
+      internalID: 8328333921588303741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86581d63944233b20800000000000000
+      internalID: 3112871664314058088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87b5ea2b35eb0570800000000000000
+      internalID: 8434086769466914701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e201bb60f21826b0800000000000000
+      internalID: -5320982135930027287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba04ecb511cca5a40800000000000000
+      internalID: 5357819081637380267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93b5dbad07188780800000000000000
+      internalID: -8680662934271708262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8260d55819a9c5ec0800000000000000
+      internalID: -3576814054240614872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c39bcf7daf89f70800000000000000
+      internalID: 9194374444841778311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b536b2dcf01da360800000000000000
+      internalID: 7182415658778768818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a857d6a70e874d160800000000000000
+      internalID: 7049392222263670154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960c47cc010f4f4e0800000000000000
+      internalID: -1948668783804235671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445dd996395369000800000000000000
+      internalID: 42280153755014468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0370b25ee7cef3270800000000000000
+      internalID: 8232558673611392816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a4c1d6ae9570a00800000000000000
+      internalID: 722645128604043817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4d061e3b4268c60800000000000000
+      internalID: 7819978157974410415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57907b248cf14750800000000000000
+      internalID: 6287584199380604765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d5472f85af7a710800000000000000
+      internalID: 1704606243914800524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638530dc10a950200800000000000000
+      internalID: 145691895484602422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af62366a006717140800000000000000
+      internalID: 4715680029997213434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d270617d4bbe1070800000000000000
+      internalID: 8079100722838270675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7825aa7456c8c90800000000000000
+      internalID: -7166241548578682970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbf8af567ad711c0800000000000000
+      internalID: -4532914297979208761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0ac2872c32de340800000000000000
+      internalID: 4894607688168415452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e1f9d77b0ae7960800000000000000
+      internalID: 7601689930995015259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8ad6e547866e840800000000000000
+      internalID: 5253000864384002236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96ba05e675acb0b0800000000000000
+      internalID: -5711508297345223009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7528e95128c75ad10800000000000000
+      internalID: 2136250496407470679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e549ee308b60960800000000000000
+      internalID: 7567938550869810771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10160655d293ba280800000000000000
+      internalID: -9031061760892706559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c823e2cfd7f8d0d00800000000000000
+      internalID: 940565668454871692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d5466cbe8a0a950800000000000000
+      internalID: 6458347596248538476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477e3c11172c8a020800000000000000
+      internalID: 2353344596186228596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46296731203bea680800000000000000
+      internalID: -8741853005181709724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd939146a0c61f8f0800000000000000
+      internalID: -508506491031307813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3a2d2883088e7a0800000000000000
+      internalID: -6347682694577347645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: facbdf129105bff00800000000000000
+      internalID: 1151602198597975215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f886f3cf2c569620800000000000000
+      internalID: 2780511180168792312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67bfe6f611167770800000000000000
+      internalID: 8608086528095139692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37ee97621de7ab80800000000000000
+      internalID: -8383471518023227585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7772d3c295824c3d0800000000000000
+      internalID: -3187378272812062857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0956fac78d04fd70800000000000000
+      internalID: 9075894025935280397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0432f5a2790ddbf10800000000000000
+      internalID: 2287213533443597120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcecfde0dd98ab10800000000000000
+      internalID: 1993016355782978769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcabed0f5103ca90800000000000000
+      internalID: -7294985463643001636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69186f19db9315af0800000000000000
+      internalID: -409482604753550954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6fc4164749f8b20800000000000000
+      internalID: 3138890692870076137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_79
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb095bc16a4641860800000000000000
+      internalID: 7499729944087728315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d52ed1bb5d8fc660800000000000000
+      internalID: 7408295337013421523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f87d2df201868b0800000000000000
+      internalID: -5158855575566053630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41f388726c565930800000000000000
+      internalID: 4131591286157472074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c7103f2fbbe3490800000000000000
+      internalID: -7764562055406715886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955681a785ade1260800000000000000
+      internalID: 7070328538558653785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697ff0e4bfa422aa0800000000000000
+      internalID: -6187300494846724202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824e0e7517ebbc970800000000000000
+      internalID: 8776317692876481576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64da009b157def690800000000000000
+      internalID: -7566373577939702458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7ba50c6b0c7a620800000000000000
+      internalID: 2785406785695692743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ebf0acaed115ca0800000000000000
+      internalID: -6030005531822801333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d948bde07cbb9050800000000000000
+      internalID: 5808443337635023319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_91
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a96717ac1ab1f80800000000000000
+      internalID: -8134730411055605119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7dbfca3b3f2b2f0800000000000000
+      internalID: -958435817649612872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_93
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476bc623f98856df0800000000000000
+      internalID: -187593592138844556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066520db5553aa070800000000000000
+      internalID: 8118359920648279648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_95
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcf608ab0bfbd490800000000000000
+      internalID: -7720301108714341121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e46fc7dba855f720800000000000000
+      internalID: 2879305031856645351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fdcaed511148100800000000000000
+      internalID: 109231076591591285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09278d0c7c027c8c0800000000000000
+      internalID: -3979175703452552560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f62d4308bb6d0a0800000000000000
+      internalID: -6857087223308587151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd4cac24caac85b0800000000000000
+      internalID: -5364725296565301774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31cd2b71d7abcfc60800000000000000
+      internalID: 7853356896658578451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146ad853e6df6b190800000000000000
+      internalID: -7946885842661956031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa141018d2bd88a60800000000000000
+      internalID: 7676626553337364906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e58a6068be6e210800000000000000
+      internalID: 1362034898195996224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5480230addfd5d0800000000000000
+      internalID: -3035463943720516179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e97fb5d6c22c0c0800000000000000
+      internalID: -4557031024739508686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4883c02aad0c642f0800000000000000
+      internalID: -988891022907131772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f869723c8eca7150800000000000000
+      internalID: 5871232165768423669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_109
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d51f5f4481642590800000000000000
+      internalID: -7699922242001496616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e1839c1dc1391e0800000000000000
+      internalID: -2192376906249658735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_111
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202a53acf119f8d40800000000000000
+      internalID: 5588845228312601090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c215a70546a39b0800000000000000
+      internalID: -5099653331231363976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c146288d919b6c960800000000000000
+      internalID: 7621982940028888092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fa9ea8a0ca8e720800000000000000
+      internalID: 2875737523356282737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251bbfb309c436a30800000000000000
+      internalID: 4207290659259527506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac5141f1101b1e20800000000000000
+      internalID: 3322266819363953837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac6a0746820e4e90800000000000000
+      internalID: -7039686391792767826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f316d9c04862bfed0800000000000000
+      internalID: -2379265629545995969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2234c5306fb9a60800000000000000
+      internalID: 7682004083703751405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a1e2f4c5bfd47a0800000000000000
+      internalID: -6391175922284881408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_121
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758ba062723148fc0800000000000000
+      internalID: -3493646352069773225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39250f4182c0f3610800000000000000
+      internalID: 1603013358656705171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_123
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ad5986801119620800000000000000
+      internalID: 2779021172876368508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_124
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0475a5d30753d5d0800000000000000
+      internalID: -3038989649564044273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_125
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180bf8dd52a2b19d0800000000000000
+      internalID: -2802600000988663679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_126
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12aade48c1b086630800000000000000
+      internalID: 3920395692743174689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_127
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac5473c8e6ed9c10800000000000000
+      internalID: 2062058091791539371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc527a89d1767680800000000000000
+      internalID: -8757687246230758152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8595856700a3120800000000000000
+      internalID: 2394226660189231319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5187c26b77e40b0800000000000000
+      internalID: -5742520850536983058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c5314b4057a8c50800000000000000
+      internalID: 6668270861336927381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48557ae71955ac3e0800000000000000
+      internalID: -2032718198420843132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cfa725bac67dcb0800000000000000
+      internalID: -4839279791507309431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199804c8db8da5d90800000000000000
+      internalID: -7108130753237448303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_135
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28b422f5415a57c0800000000000000
+      internalID: -4081860751400847315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a84912ae9ca75c00800000000000000
+      internalID: 889369248753338534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_137
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5029cb7818ebfea10800000000000000
+      internalID: 1940979427957314053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15864b1022a4e3dd0800000000000000
+      internalID: -2504482832853473199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_139
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ef0718f75c7ce70800000000000000
+      internalID: 9135487520567524952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025367d85a15fd170800000000000000
+      internalID: 8205366817577121056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_141
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796b59d16fee2f360800000000000000
+      internalID: 7202081494944560791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7c0dc80f5deeaa0800000000000000
+      internalID: -6129726813673306149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_143
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c1ac8d249531bc0800000000000000
+      internalID: -3813606315812840366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59915c05cbbfd0f80800000000000000
+      internalID: -8138572165361100395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9ac58a1bb384380800000000000000
+      internalID: -8986867422197929527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7019988612e5fa0800000000000000
+      internalID: -5810169736393062494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6258e86f92d3a4b50800000000000000
+      internalID: 6578137456167519526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317be092309460a00800000000000000
+      internalID: 722345068162103059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_149
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7399fbfd0db75b30800000000000000
+      internalID: 4276094238971237242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fe3d786f8ad6810800000000000000
+      internalID: 1760248806165966624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_151
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c63a6fea3444ef00800000000000000
+      internalID: 1145115225174456008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_152
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c803308aa04b58fa0800000000000000
+      internalID: -5799030987308191604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_153
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d1c622715d256f0800000000000000
+      internalID: -697260696950530753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_154
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590740c7c08fe4f80800000000000000
+      internalID: -8120280345598463851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_155
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34abd4990003f7b40800000000000000
+      internalID: 5440119654016989763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_156
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fbfc7d0698de380800000000000000
+      internalID: -8940338636229984483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_157
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a23ceb10033bdc0800000000000000
+      internalID: -3624500491049555413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_158
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e32e623c2d0ac40800000000000000
+      internalID: 5521644878769045004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_159
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a4aa02310737620800000000000000
+      internalID: 2770681423217707631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b077821686be70ff0800000000000000
+      internalID: -69828435661785333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_161
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ea4f911e89faed0800000000000000
+      internalID: -2400531983794655677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_162
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16030d28ac71b2610800000000000000
+      internalID: 1597396651378487393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce474d4b0b42fea00800000000000000
+      internalID: 787888801179792620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_164
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3d9990e64d98ef0800000000000000
+      internalID: -105319547193928787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_165
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadabf17701e1f3d0800000000000000
+      internalID: -3174508840226148947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_166
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bd85dfc18e8cdd0800000000000000
+      internalID: -2465465584778159251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_167
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592327e0c3d7f9e00800000000000000
+      internalID: 1053698534721860245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_168
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4e0526a8ff5e680800000000000000
+      internalID: -8726287733140429615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_169
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d189cd9021ea9c0800000000000000
+      internalID: -3914171192573420227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_170
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0869b3120add97190800000000000000
+      internalID: -7964090786205952384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_171
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fba4705f8321a390800000000000000
+      internalID: -7808921180446610442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_172
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccf452bbbf6724c0800000000000000
+      internalID: -4312355266242478907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_173
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b01a10c4fca18a0800000000000000
+      internalID: -6333522000591385755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_174
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b0a94c701584640800000000000000
+      internalID: 5064386874783173433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_175
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc919f7fa47f1e00800000000000000
+      internalID: 1017660337917369591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4946b6e25f64d60800000000000000
+      internalID: 7874250578222945476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_177
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c359c28e97c87d0800000000000000
+      internalID: -2914820820728202130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_178
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6de1b6e9f6c76c50800000000000000
+      internalID: 6658509350710144365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_179
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f896e944f9dc5cb0800000000000000
+      internalID: -4873781053486622477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_180
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434cc5f56104805f0800000000000000
+      internalID: -790311269770148812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_181
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fed00b2bbcebba80800000000000000
+      internalID: -8449899987206086921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9780cdfd874a73000800000000000000
+      internalID: 15661962777856121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_183
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ca7e5420a7f9450800000000000000
+      internalID: 6097726570664274962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_184
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88f504ff244ac950800000000000000
+      internalID: 6470058787419322511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_185
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fb8491ce5270eb0800000000000000
+      internalID: -4753789185699561618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_186
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db90b5fb5474ce5e0800000000000000
+      internalID: -1879048579631609411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_187
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b867e690c412d1ab0800000000000000
+      internalID: -5035832197870881141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_188
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e97892ec0f5ba570800000000000000
+      internalID: 8478975232400980457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_189
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fda52facd490ef80800000000000000
+      internalID: -8079294055950471691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_190
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d82d02d43e0de740800000000000000
+      internalID: 5182814366198474965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_191
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf5dbf6fd6b32a90800000000000000
+      internalID: -7339821896915132492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de045e6d18848a640800000000000000
+      internalID: 5091399101235675373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_193
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be7af03eca5cfbd0800000000000000
+      internalID: -2595099443640762704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_194
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfb4ee57776b0490800000000000000
+      internalID: -7779010168961581107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_195
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aadaa1c84727ce20800000000000000
+      internalID: 3370706039550433958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_196
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496440cf28b468560800000000000000
+      internalID: 7315617670655919764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_197
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677732370a29ce840800000000000000
+      internalID: 5254736083058653046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_198
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c83bb6de00c5e230800000000000000
+      internalID: 3667548641527806153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_199
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06731ec4729099300800000000000000
+      internalID: 259248517948716896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_200
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b8ae5a2f62538d0800000000000000
+      internalID: -2867342764143899843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_201
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97a5414ea45e9210800000000000000
+      internalID: 1341602846399113116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_202
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dfa1b1d00105010800000000000000
+      internalID: 1175457151219072403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_203
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b124a1beee3a2a210800000000000000
+      internalID: 1342815885451739675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_204
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fb1c7ad8fe90ef0800000000000000
+      internalID: -141318521601540256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_205
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef326f1635a7252d0800000000000000
+      internalID: -3291433879110016002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_206
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c6ef3d6f48d5b70800000000000000
+      internalID: 8889407435152714817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_207
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d9c8e7f48817db0800000000000000
+      internalID: -4795902253165929057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adad8a7f48bb09b0800000000000000
+      internalID: -5112790300451033696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_209
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33c2ef173f9d42a0800000000000000
+      internalID: -6751565207251532995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_210
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e0b83aefdd7fa10800000000000000
+      internalID: 1943265849968889424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_211
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe51a537ca44f2d20800000000000000
+      internalID: 3255896563072505327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_212
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d446582fcdbe850800000000000000
+      internalID: 6407457829042801960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_213
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e005d3c0266f5b300800000000000000
+      internalID: 267390653870985230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_214
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168319d3a3ad2f3e0800000000000000
+      internalID: -2021313339060045727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_215
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1498b2e67af186a0800000000000000
+      internalID: -6448597802901007329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_216
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a173c83ad529660800000000000000
+      internalID: 7391072895481879197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_217
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7d71918114dee30800000000000000
+      internalID: 4534351971587971069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_218
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c33b0e39c6e4490800000000000000
+      internalID: -7760145725526950872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_219
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f654c0e5d81f9970800000000000000
+      internalID: 8763750706764338931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_220
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9dd7e4eaf5ec450800000000000000
+      internalID: 6110926946634160604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_221
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd00e02ac7833110800000000000000
+      internalID: 1239483624661716406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_222
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b4ed5d3afb186d0800000000000000
+      internalID: -2989897967208608879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_223
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30af46dee553054b0800000000000000
+      internalID: -5453800466919654909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489f85c20e0fe4240800000000000000
+      internalID: 4778021100294044036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_225
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca6bc05629563860800000000000000
+      internalID: 7509287449786018500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_226
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad0c2bbe6037eb30800000000000000
+      internalID: 4316472020002672041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_227
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bf921be792ebf40800000000000000
+      internalID: 5746075798686268209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_228
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e115512c087ec80800000000000000
+      internalID: -8293518617709830589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_229
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead845be99e897920800000000000000
+      internalID: 2988576619466362286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_230
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e254079eaf6848b50800000000000000
+      internalID: 6594544166593643822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_231
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b8c0228b5922760800000000000000
+      internalID: 7431666953192508310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_232
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae822b1c989bfc20800000000000000
+      internalID: 3241352153060773544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_233
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d36d78555448f3c0800000000000000
+      internalID: -4325632308741839911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_234
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5124ba31ef354000800000000000000
+      internalID: 19492009978110300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_235
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86827ce2a73058650800000000000000
+      internalID: 6234393082470017128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_236
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcc4ae922662afe0800000000000000
+      internalID: -1179267853541126953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_237
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf991b865e087750800000000000000
+      internalID: 6302803443368697803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_238
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8ed4c5799574700800000000000000
+      internalID: 524486388235495639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_239
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5611245ac0639000800000000000000
+      internalID: 41483243687581276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfcc2fcfe5098890800000000000000
+      internalID: -7455421180604002359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_241
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d532d3c28256fb3c0800000000000000
+      internalID: -4341640292546567331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_242
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4472cffb8446f1ff0800000000000000
+      internalID: -63221606138501308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_243
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74770b6584922890800000000000000
+      internalID: -7484256329989131142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_244
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b643f81f48935050800000000000000
+      internalID: 5788137411589654200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_245
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93051f39d5bf5280800000000000000
+      internalID: -9052316781320535137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_246
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2eb83311f2118370800000000000000
+      internalID: 8322954412976291374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_247
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5065171bf42fd3ad0800000000000000
+      internalID: -2720752175768578555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_248
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30902f5153dbe7f70800000000000000
+      internalID: 9186988325581490435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_249
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32aac50dcd3302560800000000000000
+      internalID: 7286881220567018019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_250
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7594d19df76a111e0800000000000000
+      internalID: -2228817272538052265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_251
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61eba9bcef3a1a670800000000000000
+      internalID: 8548293882458848790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_252
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651b96fdb2a363ab0800000000000000
+      internalID: -5028767973806329514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_253
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a228eef01171c6d0800000000000000
+      internalID: -2971969961277775196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_254
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7965fbd8921881fe0800000000000000
+      internalID: -1218081683731949929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skillicons-1--colored_255
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0702fb7fc991e52b0800000000000000
+      internalID: -5594005525185486736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a5a8c9753585cc64fa5cdacad7982cff
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      skillicons-1--colored_0: -2835005050306282373
+      skillicons-1--colored_1: -1751021972847778018
+      skillicons-1--colored_10: -453477208551513999
+      skillicons-1--colored_100: -5364725296565301774
+      skillicons-1--colored_101: 7853356896658578451
+      skillicons-1--colored_102: -7946885842661956031
+      skillicons-1--colored_103: 7676626553337364906
+      skillicons-1--colored_104: 1362034898195996224
+      skillicons-1--colored_105: -3035463943720516179
+      skillicons-1--colored_106: -4557031024739508686
+      skillicons-1--colored_107: -988891022907131772
+      skillicons-1--colored_108: 5871232165768423669
+      skillicons-1--colored_109: -7699922242001496616
+      skillicons-1--colored_11: -4481204201963924892
+      skillicons-1--colored_110: -2192376906249658735
+      skillicons-1--colored_111: 5588845228312601090
+      skillicons-1--colored_112: -5099653331231363976
+      skillicons-1--colored_113: 7621982940028888092
+      skillicons-1--colored_114: 2875737523356282737
+      skillicons-1--colored_115: 4207290659259527506
+      skillicons-1--colored_116: 3322266819363953837
+      skillicons-1--colored_117: -7039686391792767826
+      skillicons-1--colored_118: -2379265629545995969
+      skillicons-1--colored_119: 7682004083703751405
+      skillicons-1--colored_12: -6711433869411941653
+      skillicons-1--colored_120: -6391175922284881408
+      skillicons-1--colored_121: -3493646352069773225
+      skillicons-1--colored_122: 1603013358656705171
+      skillicons-1--colored_123: 2779021172876368508
+      skillicons-1--colored_124: -3038989649564044273
+      skillicons-1--colored_125: -2802600000988663679
+      skillicons-1--colored_126: 3920395692743174689
+      skillicons-1--colored_127: 2062058091791539371
+      skillicons-1--colored_128: -8757687246230758152
+      skillicons-1--colored_129: 2394226660189231319
+      skillicons-1--colored_13: -2984400298224739015
+      skillicons-1--colored_130: -5742520850536983058
+      skillicons-1--colored_131: 6668270861336927381
+      skillicons-1--colored_132: -2032718198420843132
+      skillicons-1--colored_133: -4839279791507309431
+      skillicons-1--colored_134: -7108130753237448303
+      skillicons-1--colored_135: -4081860751400847315
+      skillicons-1--colored_136: 889369248753338534
+      skillicons-1--colored_137: 1940979427957314053
+      skillicons-1--colored_138: -2504482832853473199
+      skillicons-1--colored_139: 9135487520567524952
+      skillicons-1--colored_14: 2594803486294705092
+      skillicons-1--colored_140: 8205366817577121056
+      skillicons-1--colored_141: 7202081494944560791
+      skillicons-1--colored_142: -6129726813673306149
+      skillicons-1--colored_143: -3813606315812840366
+      skillicons-1--colored_144: -8138572165361100395
+      skillicons-1--colored_145: -8986867422197929527
+      skillicons-1--colored_146: -5810169736393062494
+      skillicons-1--colored_147: 6578137456167519526
+      skillicons-1--colored_148: 722345068162103059
+      skillicons-1--colored_149: 4276094238971237242
+      skillicons-1--colored_15: -3534937671374454125
+      skillicons-1--colored_150: 1760248806165966624
+      skillicons-1--colored_151: 1145115225174456008
+      skillicons-1--colored_152: -5799030987308191604
+      skillicons-1--colored_153: -697260696950530753
+      skillicons-1--colored_154: -8120280345598463851
+      skillicons-1--colored_155: 5440119654016989763
+      skillicons-1--colored_156: -8940338636229984483
+      skillicons-1--colored_157: -3624500491049555413
+      skillicons-1--colored_158: 5521644878769045004
+      skillicons-1--colored_159: 2770681423217707631
+      skillicons-1--colored_16: 2671783507412404123
+      skillicons-1--colored_160: -69828435661785333
+      skillicons-1--colored_161: -2400531983794655677
+      skillicons-1--colored_162: 1597396651378487393
+      skillicons-1--colored_163: 787888801179792620
+      skillicons-1--colored_164: -105319547193928787
+      skillicons-1--colored_165: -3174508840226148947
+      skillicons-1--colored_166: -2465465584778159251
+      skillicons-1--colored_167: 1053698534721860245
+      skillicons-1--colored_168: -8726287733140429615
+      skillicons-1--colored_169: -3914171192573420227
+      skillicons-1--colored_17: -3686158020860988780
+      skillicons-1--colored_170: -7964090786205952384
+      skillicons-1--colored_171: -7808921180446610442
+      skillicons-1--colored_172: -4312355266242478907
+      skillicons-1--colored_173: -6333522000591385755
+      skillicons-1--colored_174: 5064386874783173433
+      skillicons-1--colored_175: 1017660337917369591
+      skillicons-1--colored_176: 7874250578222945476
+      skillicons-1--colored_177: -2914820820728202130
+      skillicons-1--colored_178: 6658509350710144365
+      skillicons-1--colored_179: -4873781053486622477
+      skillicons-1--colored_18: 633697348361102105
+      skillicons-1--colored_180: -790311269770148812
+      skillicons-1--colored_181: -8449899987206086921
+      skillicons-1--colored_182: 15661962777856121
+      skillicons-1--colored_183: 6097726570664274962
+      skillicons-1--colored_184: 6470058787419322511
+      skillicons-1--colored_185: -4753789185699561618
+      skillicons-1--colored_186: -1879048579631609411
+      skillicons-1--colored_187: -5035832197870881141
+      skillicons-1--colored_188: 8478975232400980457
+      skillicons-1--colored_189: -8079294055950471691
+      skillicons-1--colored_19: 228177055456881382
+      skillicons-1--colored_190: 5182814366198474965
+      skillicons-1--colored_191: -7339821896915132492
+      skillicons-1--colored_192: 5091399101235675373
+      skillicons-1--colored_193: -2595099443640762704
+      skillicons-1--colored_194: -7779010168961581107
+      skillicons-1--colored_195: 3370706039550433958
+      skillicons-1--colored_196: 7315617670655919764
+      skillicons-1--colored_197: 5254736083058653046
+      skillicons-1--colored_198: 3667548641527806153
+      skillicons-1--colored_199: 259248517948716896
+      skillicons-1--colored_2: -5972858948983296238
+      skillicons-1--colored_20: 7359794926706241672
+      skillicons-1--colored_200: -2867342764143899843
+      skillicons-1--colored_201: 1341602846399113116
+      skillicons-1--colored_202: 1175457151219072403
+      skillicons-1--colored_203: 1342815885451739675
+      skillicons-1--colored_204: -141318521601540256
+      skillicons-1--colored_205: -3291433879110016002
+      skillicons-1--colored_206: 8889407435152714817
+      skillicons-1--colored_207: -4795902253165929057
+      skillicons-1--colored_208: -5112790300451033696
+      skillicons-1--colored_209: -6751565207251532995
+      skillicons-1--colored_21: -3383712564906813616
+      skillicons-1--colored_210: 1943265849968889424
+      skillicons-1--colored_211: 3255896563072505327
+      skillicons-1--colored_212: 6407457829042801960
+      skillicons-1--colored_213: 267390653870985230
+      skillicons-1--colored_214: -2021313339060045727
+      skillicons-1--colored_215: -6448597802901007329
+      skillicons-1--colored_216: 7391072895481879197
+      skillicons-1--colored_217: 4534351971587971069
+      skillicons-1--colored_218: -7760145725526950872
+      skillicons-1--colored_219: 8763750706764338931
+      skillicons-1--colored_22: 8061472722965526741
+      skillicons-1--colored_220: 6110926946634160604
+      skillicons-1--colored_221: 1239483624661716406
+      skillicons-1--colored_222: -2989897967208608879
+      skillicons-1--colored_223: -5453800466919654909
+      skillicons-1--colored_224: 4778021100294044036
+      skillicons-1--colored_225: 7509287449786018500
+      skillicons-1--colored_226: 4316472020002672041
+      skillicons-1--colored_227: 5746075798686268209
+      skillicons-1--colored_228: -8293518617709830589
+      skillicons-1--colored_229: 2988576619466362286
+      skillicons-1--colored_23: 1623272358047314750
+      skillicons-1--colored_230: 6594544166593643822
+      skillicons-1--colored_231: 7431666953192508310
+      skillicons-1--colored_232: 3241352153060773544
+      skillicons-1--colored_233: -4325632308741839911
+      skillicons-1--colored_234: 19492009978110300
+      skillicons-1--colored_235: 6234393082470017128
+      skillicons-1--colored_236: -1179267853541126953
+      skillicons-1--colored_237: 6302803443368697803
+      skillicons-1--colored_238: 524486388235495639
+      skillicons-1--colored_239: 41483243687581276
+      skillicons-1--colored_24: -9038308831377137131
+      skillicons-1--colored_240: -7455421180604002359
+      skillicons-1--colored_241: -4341640292546567331
+      skillicons-1--colored_242: -63221606138501308
+      skillicons-1--colored_243: -7484256329989131142
+      skillicons-1--colored_244: 5788137411589654200
+      skillicons-1--colored_245: -9052316781320535137
+      skillicons-1--colored_246: 8322954412976291374
+      skillicons-1--colored_247: -2720752175768578555
+      skillicons-1--colored_248: 9186988325581490435
+      skillicons-1--colored_249: 7286881220567018019
+      skillicons-1--colored_25: 8546344070165969590
+      skillicons-1--colored_250: -2228817272538052265
+      skillicons-1--colored_251: 8548293882458848790
+      skillicons-1--colored_252: -5028767973806329514
+      skillicons-1--colored_253: -2971969961277775196
+      skillicons-1--colored_254: -1218081683731949929
+      skillicons-1--colored_255: -5594005525185486736
+      skillicons-1--colored_26: -6570231832749300433
+      skillicons-1--colored_27: -2484004064203975550
+      skillicons-1--colored_28: 3153436796208199171
+      skillicons-1--colored_29: 7444127259415634394
+      skillicons-1--colored_3: -8040470075609604701
+      skillicons-1--colored_30: 5428511994635068426
+      skillicons-1--colored_31: -2703616046705015064
+      skillicons-1--colored_32: 2439858972318048039
+      skillicons-1--colored_33: 8328333921588303741
+      skillicons-1--colored_34: 3112871664314058088
+      skillicons-1--colored_35: 8434086769466914701
+      skillicons-1--colored_36: -5320982135930027287
+      skillicons-1--colored_37: 5357819081637380267
+      skillicons-1--colored_38: -8680662934271708262
+      skillicons-1--colored_39: -3576814054240614872
+      skillicons-1--colored_4: -2268024003646170801
+      skillicons-1--colored_40: 9194374444841778311
+      skillicons-1--colored_41: 7182415658778768818
+      skillicons-1--colored_42: 7049392222263670154
+      skillicons-1--colored_43: -1948668783804235671
+      skillicons-1--colored_44: 42280153755014468
+      skillicons-1--colored_45: 8232558673611392816
+      skillicons-1--colored_46: 722645128604043817
+      skillicons-1--colored_47: 7819978157974410415
+      skillicons-1--colored_48: 6287584199380604765
+      skillicons-1--colored_49: 1704606243914800524
+      skillicons-1--colored_5: 3012986304102852502
+      skillicons-1--colored_50: 145691895484602422
+      skillicons-1--colored_51: 4715680029997213434
+      skillicons-1--colored_52: 8079100722838270675
+      skillicons-1--colored_53: -7166241548578682970
+      skillicons-1--colored_54: -4532914297979208761
+      skillicons-1--colored_55: 4894607688168415452
+      skillicons-1--colored_56: 7601689930995015259
+      skillicons-1--colored_57: 5253000864384002236
+      skillicons-1--colored_58: -5711508297345223009
+      skillicons-1--colored_59: 2136250496407470679
+      skillicons-1--colored_6: 825178179836255152
+      skillicons-1--colored_60: 7567938550869810771
+      skillicons-1--colored_61: -9031061760892706559
+      skillicons-1--colored_62: 940565668454871692
+      skillicons-1--colored_63: 6458347596248538476
+      skillicons-1--colored_64: 2353344596186228596
+      skillicons-1--colored_65: -8741853005181709724
+      skillicons-1--colored_66: -508506491031307813
+      skillicons-1--colored_67: -6347682694577347645
+      skillicons-1--colored_68: 1151602198597975215
+      skillicons-1--colored_69: 2780511180168792312
+      skillicons-1--colored_7: -3445295021496024274
+      skillicons-1--colored_70: 8608086528095139692
+      skillicons-1--colored_71: -8383471518023227585
+      skillicons-1--colored_72: -3187378272812062857
+      skillicons-1--colored_73: 9075894025935280397
+      skillicons-1--colored_74: 2287213533443597120
+      skillicons-1--colored_75: 1993016355782978769
+      skillicons-1--colored_76: -7294985463643001636
+      skillicons-1--colored_77: -409482604753550954
+      skillicons-1--colored_78: 3138890692870076137
+      skillicons-1--colored_79: 7499729944087728315
+      skillicons-1--colored_8: -783484535052253811
+      skillicons-1--colored_80: 7408295337013421523
+      skillicons-1--colored_81: -5158855575566053630
+      skillicons-1--colored_82: 4131591286157472074
+      skillicons-1--colored_83: -7764562055406715886
+      skillicons-1--colored_84: 7070328538558653785
+      skillicons-1--colored_85: -6187300494846724202
+      skillicons-1--colored_86: 8776317692876481576
+      skillicons-1--colored_87: -7566373577939702458
+      skillicons-1--colored_88: 2785406785695692743
+      skillicons-1--colored_89: -6030005531822801333
+      skillicons-1--colored_9: 446713168689026425
+      skillicons-1--colored_90: 5808443337635023319
+      skillicons-1--colored_91: -8134730411055605119
+      skillicons-1--colored_92: -958435817649612872
+      skillicons-1--colored_93: -187593592138844556
+      skillicons-1--colored_94: 8118359920648279648
+      skillicons-1--colored_95: -7720301108714341121
+      skillicons-1--colored_96: 2879305031856645351
+      skillicons-1--colored_97: 109231076591591285
+      skillicons-1--colored_98: -3979175703452552560
+      skillicons-1--colored_99: -6857087223308587151
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

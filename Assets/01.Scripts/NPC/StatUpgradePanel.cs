@@ -12,6 +12,7 @@ public class StatUpgradePanel : MonoBehaviour
     void Start()
     {
         hpUpgradeBtn.onClick.AddListener(player.UpgradeHp);
+        mpUpgradeBtn.onClick.AddListener(player.UpgradeMp);
         exitBtn.onClick.AddListener(ExitBtnClick);
     }
 

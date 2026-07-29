@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 700ff1bf636f5a1449fb2384959ede02, type: 3}
   m_Name: BossNormalDevil
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  enemyName: 
-  maxHp: 0
-  damage: 0
-  exp: 0
-  rangedDamage: 0
+  enemyName: BossNormalDevil
+  maxHp: 5000
+  damage: 50
+  exp: 1000
+  rangedDamage: 50
