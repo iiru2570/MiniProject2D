@@ -4,9 +4,17 @@ using UnityEngine;
 
 public enum SFXType
 {
-    Skill,
-    Heal,
     Attack,
+    Skill1,
+    Skill2,
+    Skill3,
+    Denided,
+    Upgrade,
+    Portal,
+    Open,
+    Close,
+    BossPattern1,
+    BossPattern2,
     Bomb,
     RangedAttack
 }
@@ -21,6 +29,9 @@ public class SoundManager : MonoBehaviour
     public AudioClip audioClip; // 배경음 
     public AudioClip[] soundClip; // 효과음
 
+    private float[] lastPlayTime;
+    private float minInterval = 0.05f;
+
     private void Awake()
     {
         if (instance == null)
@@ -32,6 +43,8 @@ public class SoundManager : MonoBehaviour
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
+
+        lastPlayTime = new float[System.Enum.GetValues(typeof(SFXType)).Length];
     }
 
     private void Start()
@@ -41,11 +54,17 @@ public class SoundManager : MonoBehaviour
 
     public void PlaySFX(SFXType type)
     {
+        int index = (int)type;
         if ((int)type > soundClip.Length)
         {
             return;
         }
 
+        if (Time.time - lastPlayTime[index] < minInterval)
+        {
+            return;
+        }
+        lastPlayTime[index] = Time.time;
         SFXSource.PlayOneShot(soundClip[(int)type]);
     }
 

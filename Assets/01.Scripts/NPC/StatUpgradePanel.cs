@@ -20,6 +20,7 @@ public class StatUpgradePanel : MonoBehaviour
 
     public void ExitBtnClick()
     {
+        SoundManager.instance.PlaySFX(SFXType.Close);
         gameObject.SetActive(false);
     }
 

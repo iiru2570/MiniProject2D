@@ -37,6 +37,7 @@ public class NPCController : MonoBehaviour
             NPC npc = hit.gameObject.GetComponent<NPC>();
             if(npc != null)
             {
+                SoundManager.instance.PlaySFX(SFXType.Open);
                 statPanel.SetActive(true);
             }
         }

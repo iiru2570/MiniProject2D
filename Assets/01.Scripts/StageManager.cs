@@ -169,13 +169,16 @@ public class StageManager : MonoBehaviour
             if (SceneChanger.instance.nowStage == 2)
             {
                 Debug.Log("뒤로 갈 스테이지가 없음");
+                SoundManager.instance.PlaySFX(SFXType.Denided);
             }
             else
             {
                 stat.NowHp = stat.MaxHp;
                 stat.NowMp = stat.MaxMp;
                 GameManager.instance.SaveStat(stat);
+                SoundManager.instance.PlaySFX(SFXType.Portal);
                 SceneChanger.instance.LoadScene(SceneChanger.instance.nowStage);
+                
             }   
         }
 
@@ -184,14 +187,17 @@ public class StageManager : MonoBehaviour
             stat.NowHp = stat.MaxHp;
             stat.NowMp = stat.MaxMp;
             GameManager.instance.SaveStat(stat);
+            SoundManager.instance.PlaySFX(SFXType.Portal);
             SceneChanger.instance.LoadScene(SceneChanger.instance.nowStage + 1);
             SceneChanger.instance.nowStage += 1;
+            
         }
         if (portalLobby.HasTile(pos))
         {
             stat.NowHp = stat.MaxHp;
             stat.NowMp = stat.MaxMp;
             GameManager.instance.SaveStat(stat);
+            SoundManager.instance.PlaySFX(SFXType.Portal);
             SceneChanger.instance.LoadScene(2);
         }
         else

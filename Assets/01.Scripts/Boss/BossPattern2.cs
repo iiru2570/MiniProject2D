@@ -52,6 +52,7 @@ public class BossPattern2 : MonoBehaviour
         {
             Vector3Int playerPos = enemy.tilemap.WorldToCell(gameObject.transform.position);
             Vector3Int tempPos = playerPos;
+            SoundManager.instance.PlaySFX(SFXType.BossPattern1);
             for (int i = 0; i < patternPos1.Count; i++)
             {
                 tempPos = playerPos;
@@ -65,7 +66,7 @@ public class BossPattern2 : MonoBehaviour
                 temp.Trigger(pPos, enemy.stat.rangedDamage);
             }
             yield return new WaitForSeconds(1f);
-
+            SoundManager.instance.PlaySFX(SFXType.BossPattern2);
             for (int i = 0; i < patternPos2.Count; i++)
             {
                 tempPos = playerPos;

@@ -33,9 +33,10 @@ public class BossPattern1 : MonoBehaviour
             {
                 GameObject go = Instantiate(telegraph, pPos, Quaternion.identity);
                 Telegraph temp = go.GetComponent<Telegraph>();
-
+                
                 temp.Trigger(pPos, enemy.stat.rangedDamage);
             }
         }
+        SoundManager.instance.PlaySFX(SFXType.BossPattern1);
     }
 }

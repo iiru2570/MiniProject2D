@@ -67,7 +67,7 @@ public class Telegraph : MonoBehaviour
         {
             Debug.Log("¾øÀ½");
         }
-
+        SoundManager.instance.PlaySFX(SFXType.Bomb);
         Destroy(gameObject);
     }
 

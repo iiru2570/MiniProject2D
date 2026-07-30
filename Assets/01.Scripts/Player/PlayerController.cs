@@ -165,6 +165,7 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("적이 없음");
         }
+        SoundManager.instance.PlaySFX(SFXType.Attack);
         StartCoroutine(AttackCool());
         //animeController.SetAttackfalse();
         //Debug.Log($"{PlayerPos} 칸에 있음.");
@@ -217,11 +218,13 @@ public class PlayerController : MonoBehaviour
             {
                 Debug.Log("적이 없음");
             }
+            SoundManager.instance.PlaySFX(SFXType.Skill1);
             StartCoroutine(AttackCool());
         }
         else
         {
             GameManager.instance.ShowConsoleText("Not enough MP");
+            SoundManager.instance.PlaySFX(SFXType.Denided);
         }
     }
     public void Skill2()
@@ -239,6 +242,7 @@ public class PlayerController : MonoBehaviour
                     EnemyController enemy = hit.gameObject.GetComponent<EnemyController>();
                     if (enemy != null)
                     {
+                        
                         enemy.TakeDamage(damage);
                         Debug.Log(hit.name + " 을(를) 스킬 공격!");
                         
@@ -254,11 +258,13 @@ public class PlayerController : MonoBehaviour
             {
                 this.TakeDamage(damage);
             }
+            SoundManager.instance.PlaySFX(SFXType.Skill2);
             StartCoroutine(Skill2Cool());
         }
         else
         {
             GameManager.instance.ShowConsoleText("Not Enough MP");
+            SoundManager.instance.PlaySFX(SFXType.Denided);
         }
     }
 
@@ -309,14 +315,16 @@ public class PlayerController : MonoBehaviour
             {
                 stat.NowHp += healAmount;
             }
+            SoundManager.instance.PlaySFX(SFXType.Skill3);
             StartCoroutine(Skill3Cool());
         }
         else
         {
             GameManager.instance.ShowConsoleText("Not Enough MP");
+            SoundManager.instance.PlaySFX(SFXType.Denided);
         }
-
-            Debug.Log($"{stat.NowHp} / {stat.MaxHp}");
+        
+        Debug.Log($"{stat.NowHp} / {stat.MaxHp}");
         
     }
 
@@ -390,11 +398,13 @@ public class PlayerController : MonoBehaviour
             stat.MaxHp += 10;
             stat.Exp -= 10;
             Debug.Log($"{stat.NowHp} / {stat.MaxHp}");
+            SoundManager.instance.PlaySFX(SFXType.Upgrade);
         }
         else
         {
             Debug.Log("남은경험치가 없음.");
             GameManager.instance.ShowConsoleText("Not Enough Exp");
+            SoundManager.instance.PlaySFX(SFXType.Denided);
         }
     }
     public void UpgradeMp()
@@ -405,10 +415,13 @@ public class PlayerController : MonoBehaviour
             stat.MaxMp += 10;
             stat.Exp -= 20;
             Debug.Log($"{stat.NowMp} / {stat.MaxMp}");
+            SoundManager.instance.PlaySFX(SFXType.Upgrade);
         }
         else
         {
             Debug.Log("남은경험치가 없음.");
+            GameManager.instance.ShowConsoleText("Not Enough Exp");
+            SoundManager.instance.PlaySFX(SFXType.Denided);
         }
     }
 
@@ -420,10 +433,13 @@ public class PlayerController : MonoBehaviour
             stat.Damage += 1;
             stat.Exp -= 20;
             Debug.Log($"{stat.Damage}");
+            SoundManager.instance.PlaySFX(SFXType.Upgrade);
         }
         else
         {
             Debug.Log("남은경험치가 없음.");
+            GameManager.instance.ShowConsoleText("Not Enough Exp");
+            SoundManager.instance.PlaySFX(SFXType.Denided);
         }
     }
 
