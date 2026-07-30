@@ -140,6 +140,9 @@ MonoBehaviour:
   playertf: {fileID: 0}
   moveSpeed: 0
   currentPos: {x: 0, y: 0, z: 0}
+  canPattern1: 0
+  canPattern2: 0
+  skillCooltime: 0
   canAttack: 0
   attackCooltime: 0
 --- !u!114 &6701427805441243927
@@ -202,7 +205,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0020876676, y: -0.11795663}
+  m_Offset: {x: -0.000581488, y: -0.091265306}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -212,7 +215,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.2921047, y: 0.27331477}
+  m_Size: {x: 0.14797154, y: 0.15587294}
   m_EdgeRadius: 0
 --- !u!1001 &2249995269354922330
 PrefabInstance:

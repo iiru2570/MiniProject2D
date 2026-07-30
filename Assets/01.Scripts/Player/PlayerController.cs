@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
     public PlayerSkillState skill3State;
 
     public PlayerHpBar hpBar;
-
+    public GameObject gameoverPanel;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -219,6 +219,10 @@ public class PlayerController : MonoBehaviour
             }
             StartCoroutine(AttackCool());
         }
+        else
+        {
+            GameManager.instance.ShowConsoleText("Not enough MP");
+        }
     }
     public void Skill2()
     {
@@ -251,6 +255,10 @@ public class PlayerController : MonoBehaviour
                 this.TakeDamage(damage);
             }
             StartCoroutine(Skill2Cool());
+        }
+        else
+        {
+            GameManager.instance.ShowConsoleText("Not Enough MP");
         }
     }
 
@@ -303,8 +311,12 @@ public class PlayerController : MonoBehaviour
             }
             StartCoroutine(Skill3Cool());
         }
-        
-        Debug.Log($"{stat.NowHp} / {stat.MaxHp}");
+        else
+        {
+            GameManager.instance.ShowConsoleText("Not Enough MP");
+        }
+
+            Debug.Log($"{stat.NowHp} / {stat.MaxHp}");
         
     }
 
@@ -356,6 +368,7 @@ public class PlayerController : MonoBehaviour
         Debug.Log($"{gameObject.name}이 {damage}만큼 대미지를 입음. 남은체력 : {stat.NowHp}");
         if (stat.NowHp <= 0)
         {
+            stat.NowHp = 0;
             StartCoroutine(Die());
         }
     }
@@ -365,8 +378,8 @@ public class PlayerController : MonoBehaviour
         Debug.Log("플레이어 사망");
         //사망애니메이션 넣을 자리
         yield return new WaitForSeconds(1f);
-        GameManager.instance.ResetStat();
-        SceneChanger.instance.LoadScene(0);
+
+        gameoverPanel.SetActive(true);
     }
 
     public void UpgradeHp()
@@ -381,6 +394,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             Debug.Log("남은경험치가 없음.");
+            GameManager.instance.ShowConsoleText("Not Enough Exp");
         }
     }
     public void UpgradeMp()

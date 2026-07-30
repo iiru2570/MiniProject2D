@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NormalDevilWizard
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
   enemyName: NormalDevilWizard
-  maxHp: 120
+  maxHp: 50
   damage: 5
   exp: 15
   rangedDamage: 15

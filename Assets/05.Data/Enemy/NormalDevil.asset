@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NormalDevil
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
   enemyName: NormalDevil
-  maxHp: 100
+  maxHp: 60
   damage: 10
   exp: 10
   rangedDamage: 0

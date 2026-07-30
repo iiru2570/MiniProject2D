@@ -626,12 +626,32 @@ PrefabInstance:
     - target: {fileID: 1319475369243350193, guid: 864ec443cb2d6f6499e03fd9562a0af3,
         type: 3}
       propertyPath: m_Tiles.Array.data[0].first.x
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1319475369243350193, guid: 864ec443cb2d6f6499e03fd9562a0af3,
         type: 3}
       propertyPath: m_Tiles.Array.data[0].first.y
       value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319475369243350193, guid: 864ec443cb2d6f6499e03fd9562a0af3,
+        type: 3}
+      propertyPath: m_Tiles.Array.data[1].first.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319475369243350193, guid: 864ec443cb2d6f6499e03fd9562a0af3,
+        type: 3}
+      propertyPath: m_Tiles.Array.data[1].first.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319475369243350193, guid: 864ec443cb2d6f6499e03fd9562a0af3,
+        type: 3}
+      propertyPath: m_Tiles.Array.data[2].first.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319475369243350193, guid: 864ec443cb2d6f6499e03fd9562a0af3,
+        type: 3}
+      propertyPath: m_Tiles.Array.data[2].first.y
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1319475369243350193, guid: 864ec443cb2d6f6499e03fd9562a0af3,
         type: 3}
@@ -652,6 +672,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TileSpriteArray.Array.data[0].m_RefCount
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319475369243350193, guid: 864ec443cb2d6f6499e03fd9562a0af3,
+        type: 3}
+      propertyPath: m_Tiles.Array.data[2].second.m_AllTileFlags
+      value: 1073741825
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319475369243350193, guid: 864ec443cb2d6f6499e03fd9562a0af3,
+        type: 3}
+      propertyPath: m_Tiles.Array.data[2].second.m_TileObjectToInstantiateIndex
+      value: 65535
       objectReference: {fileID: 0}
     - target: {fileID: 3690539007824588775, guid: 864ec443cb2d6f6499e03fd9562a0af3,
         type: 3}
@@ -31426,7 +31456,7 @@ PrefabInstance:
     - target: {fileID: 4010104342337161505, guid: 70a61e0da0ba9264cb5f267af457cdb6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.5
+      value: -11.5
       objectReference: {fileID: 0}
     - target: {fileID: 4010104342337161505, guid: 70a61e0da0ba9264cb5f267af457cdb6,
         type: 3}

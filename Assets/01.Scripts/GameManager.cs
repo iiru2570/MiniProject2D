@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.ComponentModel;
 using TMPro;
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
     public int savedDamage;
 
     public TextMeshProUGUI console;
+    private Coroutine consoleCo;
 
     private void Awake()
     {
@@ -67,11 +69,34 @@ public class GameManager : MonoBehaviour
         savedDamage = 10;
     }
 
+
+    public void ShowConsoleText(string str)
+    {
+        if (consoleCo != null)
+        {
+            StopCoroutine(consoleCo);
+        }
+        console.DOKill();
+        consoleCo = StartCoroutine(ConsoleText(str));
+    }
+
     public IEnumerator ConsoleText(string str)
     {
         console.text = str;
         console.gameObject.SetActive(true);
+        Color color = console.color;
+        color.a = 1f;
+        console.color = color;
+
+        console.DOFade(0f, 1f);
         yield return new WaitForSeconds(1f);
         console.gameObject.SetActive(false);
     }
+
+    public void GameOver()
+    {
+        ResetStat();
+        SceneChanger.instance.LoadScene(0);
+    }
+
 }
