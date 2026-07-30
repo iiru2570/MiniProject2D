@@ -386,11 +386,26 @@ public class PlayerController : MonoBehaviour
     public void UpgradeMp()
     {
         //한번 버튼 누를때마다 +5
-        if (stat.Exp / 10 > 0)
+        if (stat.Exp / 20 > 0)
         {
-            stat.MaxMp += 5;
-            stat.Exp -= 10;
+            stat.MaxMp += 10;
+            stat.Exp -= 20;
             Debug.Log($"{stat.NowMp} / {stat.MaxMp}");
+        }
+        else
+        {
+            Debug.Log("남은경험치가 없음.");
+        }
+    }
+
+    public void UpgradeAtt()
+    {
+        //한번 버튼 누를때마다 +1
+        if (stat.Exp / 20 > 0)
+        {
+            stat.Damage += 1;
+            stat.Exp -= 20;
+            Debug.Log($"{stat.Damage}");
         }
         else
         {

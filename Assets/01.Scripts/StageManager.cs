@@ -172,6 +172,8 @@ public class StageManager : MonoBehaviour
             }
             else
             {
+                stat.NowHp = stat.MaxHp;
+                stat.NowMp = stat.MaxMp;
                 GameManager.instance.SaveStat(stat);
                 SceneChanger.instance.LoadScene(SceneChanger.instance.nowStage);
             }   
@@ -179,6 +181,8 @@ public class StageManager : MonoBehaviour
 
         if (portalNext.HasTile(pos))
         {
+            stat.NowHp = stat.MaxHp;
+            stat.NowMp = stat.MaxMp;
             GameManager.instance.SaveStat(stat);
             SceneChanger.instance.LoadScene(SceneChanger.instance.nowStage + 1);
             SceneChanger.instance.nowStage += 1;

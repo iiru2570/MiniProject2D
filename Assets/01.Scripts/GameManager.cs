@@ -1,4 +1,6 @@
+using System.Collections;
 using System.ComponentModel;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -11,6 +13,8 @@ public class GameManager : MonoBehaviour
     public int savedNowMp;
     public int savedExp;
     public int savedDamage;
+
+    public TextMeshProUGUI console;
 
     private void Awake()
     {
@@ -63,4 +67,11 @@ public class GameManager : MonoBehaviour
         savedDamage = 10;
     }
 
+    public IEnumerator ConsoleText(string str)
+    {
+        console.text = str;
+        console.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        console.gameObject.SetActive(false);
+    }
 }

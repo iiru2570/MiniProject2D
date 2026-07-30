@@ -6,6 +6,7 @@ public class StatUpgradePanel : MonoBehaviour
     [SerializeField]private PlayerController player;
     public Button hpUpgradeBtn;
     public Button mpUpgradeBtn;
+    public Button attUpgradeBtn;
     public Button exitBtn;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -13,6 +14,7 @@ public class StatUpgradePanel : MonoBehaviour
     {
         hpUpgradeBtn.onClick.AddListener(player.UpgradeHp);
         mpUpgradeBtn.onClick.AddListener(player.UpgradeMp);
+        attUpgradeBtn.onClick.AddListener(player.UpgradeAtt);
         exitBtn.onClick.AddListener(ExitBtnClick);
     }
 
