@@ -17,6 +17,10 @@ public class EnemyController : MonoBehaviour
     private SpriteRenderer sr;
     public EnemyStat stat;
 
+    public bool isBoss;
+    [SerializeField] private GameObject clearPanel;
+    [SerializeField] private GameObject canvas;
+
     public GameObject player;
     private PlayerController playerController;
     public AnimeController animeController;
@@ -40,8 +44,7 @@ public class EnemyController : MonoBehaviour
     public EnemyTraceState traceState;
     public EnemySkillState skillState;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Awake()
     {
         animeController = GetComponent<AnimeController>();
         sr = GetComponent<SpriteRenderer>();
@@ -55,6 +58,12 @@ public class EnemyController : MonoBehaviour
         attackState = new EnemyAttackState(this);
         traceState = new EnemyTraceState(this);
         skillState = new EnemySkillState(this);
+    }
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        canvas = GameObject.Find("Canvas");
 
         attackCooltime = 3f;
         canAttack = true;
@@ -300,6 +309,13 @@ public class EnemyController : MonoBehaviour
         if (stat.NowHp <= 0)
         {
             //죽음
+            if(isBoss == true)
+            {
+                BossTime.instance.StopTimer();
+                GameObject go = Instantiate(clearPanel, canvas.transform, false);
+                GameManager.instance.StopTimer();
+                go.SetActive(true);
+            }
             playerController.stat.Exp += stat.Exp;
             Debug.Log($"경험치 {stat.Exp}를 얻었습니다. 누적경험치 : {playerController.stat.Exp}");
             StageManager.instance.ReturnPos(currentPos);

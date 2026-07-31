@@ -20,6 +20,10 @@ public class PlayerIdleState : IPlayerState
     public void Update()
     {
         pressShift = Keyboard.current.leftShiftKey.isPressed;
+        if(player.isDead == true)
+        {
+            return;
+        }
 
         if (Keyboard.current.upArrowKey.isPressed)
         {

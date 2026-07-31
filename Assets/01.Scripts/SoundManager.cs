@@ -1,4 +1,3 @@
-using Unity.VectorGraphics.Editor;
 using UnityEngine;
 
 
@@ -49,7 +48,8 @@ public class SoundManager : MonoBehaviour
 
     private void Start()
     {
-        
+        SetBgmVolume(PlayerPrefs.GetFloat("BGMVolume", 1));
+        SetSfxVolume(PlayerPrefs.GetFloat("SFXVolume", 1));
     }
 
     public void PlaySFX(SFXType type)
@@ -68,6 +68,21 @@ public class SoundManager : MonoBehaviour
         SFXSource.PlayOneShot(soundClip[(int)type]);
     }
 
+    public void PlayBGM(AudioClip clip)
+    {
+        if(clip == null)
+        {
+            return;
+        }
+        if(BGMSource.clip == clip)
+        {
+            return;
+        }
+        BGMSource.clip = clip;
+        BGMSource.loop = true;
+        BGMSource.Play();
+    }
+   
 
     public void SetBgmVolume(float volume)
     {

@@ -1,8 +1,8 @@
 using DG.Tweening;
 using System.Collections;
-using System.ComponentModel;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,11 +16,17 @@ public class GameManager : MonoBehaviour
     public int savedDamage;
 
     public TextMeshProUGUI console;
+    public TextMeshProUGUI gametime;
+    [SerializeField] private GameObject optionPanel;
+    public Button optionBtn;
     private Coroutine consoleCo;
+
+    private float currentTime;
+    private bool isTimer;
 
     private void Awake()
     {
-
+        Screen.SetResolution(1920, 1080, FullScreenMode.FullScreenWindow);
         savedMaxHp = 100;
         savedNowHp = 100;
         savedMaxMp = 100;
@@ -28,7 +34,10 @@ public class GameManager : MonoBehaviour
         savedExp = 0;
         savedDamage = 10;
 
-        if(instance == null)
+        currentTime = 0f;
+        isTimer = false;
+
+        if (instance == null)
         {
             instance = this;
         }
@@ -39,6 +48,19 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    private void Start()
+    {
+        optionBtn.onClick.AddListener(OpenOption);
+        
+    }
+    private void Update()
+    {
+        if (isTimer)
+        {
+            currentTime += Time.deltaTime;
+            gametime.text = GetTime();
+        }
+    }
 
     public void SaveStat(PlayerStat stat)
     {
@@ -96,7 +118,33 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         ResetStat();
+        StopTimer();
+        gametime.text = "";
         SceneChanger.instance.LoadScene(0);
+    }
+
+
+    public void OpenOption()
+    {
+        SoundManager.instance.PlaySFX(SFXType.Open);
+        optionPanel.SetActive(true);
+    }
+
+    public void StartTimer()
+    {
+        currentTime = 0f;
+        isTimer = true;
+    }
+    public void StopTimer()
+    {
+        isTimer = false;
+    }
+    public string GetTime()
+    {
+        int minute = Mathf.FloorToInt(currentTime / 60f);
+        int second = Mathf.FloorToInt(currentTime % 60f);
+
+        return $"{minute:00} : {second:00}";
     }
 
 }

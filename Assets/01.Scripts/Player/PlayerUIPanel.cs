@@ -15,6 +15,6 @@ public class PlayerUIPanel : MonoBehaviour
         attack.text = $"Att [ {stat.Damage} ]";
         hpNum.text = $"{stat.NowHp} / {stat.MaxHp}";
         mpNum.text = $"{stat.NowMp} / {stat.MaxMp}";
-        expNum.text = $"{stat.Exp}";
+        expNum.text = $"EXP [ {stat.Exp} ]";
     }
 }

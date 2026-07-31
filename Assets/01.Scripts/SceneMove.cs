@@ -18,9 +18,11 @@ public class SceneMove : MonoBehaviour
     //tutorial 버튼
     public void MoveNext()
     {
+        SoundManager.instance.PlaySFX(SFXType.Open);
         SceneChanger.instance.LoadScene(1);
         //기본 로비 씬이 2
         SceneChanger.instance.nowStage = 2;
+        GameManager.instance.StartTimer();
     }
     //public void MovePrevios()
     //{

@@ -24,6 +24,7 @@ public class SceneChanger : MonoBehaviour
             Destroy(gameObject);
         }
         DontDestroyOnLoad(gameObject);
+
     }
 
     public void LoadScene(int i)

@@ -1,7 +1,14 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
+using DG.Tweening;
+using UnityEngine.UI;
+
+using Random = UnityEngine.Random;
 
 public class StageManager : MonoBehaviour
 {
@@ -11,6 +18,10 @@ public class StageManager : MonoBehaviour
     public Tilemap tilemap;
 
     [SerializeField] private PlayerStat stat;
+
+    private bool usePortal;
+
+    [SerializeField] TextMeshProUGUI stageInfo;
 
     [SerializeField] private Tilemap wall;
     [SerializeField] private Tilemap portalObj;
@@ -42,12 +53,27 @@ public class StageManager : MonoBehaviour
         {
             SummonEnemy();
         }
+        usePortal = false;
+        StartCoroutine(StageText(SceneManager.GetActiveScene().name)); 
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public IEnumerator StageText(string str)
+    {
+        stageInfo.text = str;
+        stageInfo.gameObject.SetActive(true);
+        Color color = stageInfo.color;
+        color.a = 1f;
+        stageInfo.color = color;
+
+        stageInfo.DOFade(0f, 6f);
+        yield return new WaitForSeconds(6f);
+        stageInfo.gameObject.SetActive(false);
     }
     private void SummonEnemy()
     {
@@ -173,37 +199,46 @@ public class StageManager : MonoBehaviour
             }
             else
             {
-                stat.NowHp = stat.MaxHp;
-                stat.NowMp = stat.MaxMp;
-                GameManager.instance.SaveStat(stat);
-                SoundManager.instance.PlaySFX(SFXType.Portal);
-                SceneChanger.instance.LoadScene(SceneChanger.instance.nowStage);
-                
+                if(usePortal == false)
+                {
+                    usePortal = true;
+                    stat.NowHp = stat.MaxHp;
+                    stat.NowMp = stat.MaxMp;
+                    GameManager.instance.SaveStat(stat);
+                    SoundManager.instance.PlaySFX(SFXType.Portal);
+                    SceneChanger.instance.LoadScene(SceneChanger.instance.nowStage);
+                } 
             }   
         }
 
         if (portalNext.HasTile(pos))
         {
-            stat.NowHp = stat.MaxHp;
-            stat.NowMp = stat.MaxMp;
-            GameManager.instance.SaveStat(stat);
-            SoundManager.instance.PlaySFX(SFXType.Portal);
-            SceneChanger.instance.LoadScene(SceneChanger.instance.nowStage + 1);
-            SceneChanger.instance.nowStage += 1;
-            
+            if(usePortal == false)
+            {
+                usePortal = true;
+                stat.NowHp = stat.MaxHp;
+                stat.NowMp = stat.MaxMp;
+                GameManager.instance.SaveStat(stat);
+                SoundManager.instance.PlaySFX(SFXType.Portal);
+                SceneChanger.instance.LoadScene(SceneChanger.instance.nowStage + 1);
+                SceneChanger.instance.nowStage += 1;
+            }     
         }
         if (portalLobby.HasTile(pos))
         {
-            stat.NowHp = stat.MaxHp;
-            stat.NowMp = stat.MaxMp;
-            GameManager.instance.SaveStat(stat);
-            SoundManager.instance.PlaySFX(SFXType.Portal);
-            SceneChanger.instance.LoadScene(2);
+            if(usePortal == false)
+            {
+                usePortal = true;
+                stat.NowHp = stat.MaxHp;
+                stat.NowMp = stat.MaxMp;
+                GameManager.instance.SaveStat(stat);
+                SoundManager.instance.PlaySFX(SFXType.Portal);
+                SceneChanger.instance.LoadScene(2);
+            }
         }
         else
         {
             return;
         }
     }
-
 }

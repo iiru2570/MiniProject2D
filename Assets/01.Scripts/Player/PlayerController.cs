@@ -54,6 +54,8 @@ public class PlayerController : MonoBehaviour
 
     public PlayerHpBar hpBar;
     public GameObject gameoverPanel;
+
+    public bool isDead;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -72,6 +74,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        isDead = false;
+
         moveSpeed = 2f;
         visionRange = 5;
 
@@ -383,10 +387,11 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator Die()
     {
+        isDead = true;
         Debug.Log("플레이어 사망");
         //사망애니메이션 넣을 자리
         yield return new WaitForSeconds(1f);
-
+        GameManager.instance.StopTimer();
         gameoverPanel.SetActive(true);
     }
 

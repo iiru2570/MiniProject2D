@@ -68,4 +68,12 @@ public class AnimeController : MonoBehaviour
     {
         animator.SetBool("isIdle", false);
     }
+    public void SetDeadtrue()
+    {
+        animator.SetBool("isDead", true);
+    }
+    public void SetDeadfalse()
+    {
+        animator.SetBool("isDead", false);
+    }
 }
